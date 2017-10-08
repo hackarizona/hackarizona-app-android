@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ScheduleActivity"
+            android:label="@string/title_activity_schedule_view"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hackaz.MainActivity" />
+        </activity>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".LiveStreamActivity" />
+        <activity android:name=".MentorActivity"></activity>
     </application>
 
 </manifest>
