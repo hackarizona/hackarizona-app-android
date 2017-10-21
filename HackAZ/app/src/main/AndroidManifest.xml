@@ -27,7 +27,19 @@
         </activity>
         <activity android:name=".MapActivity" />
         <activity android:name=".LiveStreamActivity" />
-        <activity android:name=".MentorActivity"></activity>
+        <activity android:name=".MentorActivity" />
+        <activity
+            android:name=".FridayActivity"
+            android:label="@string/title_activity_friday"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SaturdayActivity"
+            android:label="@string/title_activity_saturday"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SundayActivity"
+            android:label="@string/title_activity_sunday"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
