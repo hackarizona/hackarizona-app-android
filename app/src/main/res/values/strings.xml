@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">HackAZ</string>
-    <string name="title_activity_schedule_view">ScheduleView</string>
-    <string name="textview">TextView</string>
-    <string name="title_activity_friday">FridayActivity</string>
-    <string name="title_activity_saturday">SaturdayActivity</string>
-    <string name="title_activity_sunday">SundayActivity</string>
-</resources>

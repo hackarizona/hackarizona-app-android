@@ -4,7 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hackaz.mentors.MentorActivity"
+    tools:context="com.example.hackaz.schedule.days.SundayActivity"
     android:background="@drawable/bg_gradient">
 
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunday Schedule"
+        android:layout_marginTop="142dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </android.widget.RelativeLayout>

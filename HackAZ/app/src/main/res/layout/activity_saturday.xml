@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hackaz.schedule.ScheduleActivity"
+    tools:context="com.example.hackaz.schedule.days.SaturdayActivity"
     android:background="@drawable/bg_gradient">
 
-    <ListView
-        android:id="@+id/scheduleList"
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="8dp" />
-
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="158dp"
+        android:text="Saturday Schedule" />
 </android.widget.RelativeLayout>

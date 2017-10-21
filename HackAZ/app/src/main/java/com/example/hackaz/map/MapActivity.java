@@ -1,10 +1,9 @@
-package com.example.hackaz;
+package com.example.hackaz.map;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,41 +12,39 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.hackaz.livestream.LiveStreamActivity;
-import com.example.hackaz.map.MapActivity;
-import com.example.hackaz.mentors.MentorActivity;
-import com.example.hackaz.schedule.ScheduleActivity;
+import com.example.hackaz.R;
+import com.example.hackaz.map.floors.Floor1Activity;
+import com.example.hackaz.map.floors.Floor2Activity;
+import com.example.hackaz.map.floors.Floor3Activity;
+import com.example.hackaz.map.floors.Floor4Activity;
+import com.example.hackaz.map.floors.Floor5Activity;
 
 import java.util.ArrayList;
 
-public class MainActivity extends Activity {
-
-    ArrayList<String> pages;
-    ListView listView;
+public class MapActivity extends AppCompatActivity {
+    private ArrayList<String> floors;
+    ListView mapView;
     private int savePos;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-
-
+        setContentView(R.layout.activity_map);
 
         savePos = 0;
-        pages = new ArrayList<>();
-        pages.add("Schedule");
-        pages.add("Map");
-        pages.add("Mentors");
-        pages.add("Livestream");
+        floors = new ArrayList<>();
+        floors.add("Level 1");
+        floors.add("Level 2");
+        floors.add("Level 3");
+        floors.add("Level 4");
+        floors.add("Level 5");
 
         // Get ListView object from xml
-        listView = (ListView) findViewById(R.id.list);
-
-
+        mapView = (ListView) findViewById(R.id.floorList);
 
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(
-                this, android.R.layout.simple_list_item_1, pages){
+                this, android.R.layout.simple_list_item_1, floors){
 
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
@@ -61,9 +58,9 @@ public class MainActivity extends Activity {
                 return view;
             }
         };
-        listView.setAdapter(adapter);
+        mapView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mapView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Log.i("Info", position+"");
@@ -74,23 +71,28 @@ public class MainActivity extends Activity {
     }
 
     private void navSubPage(){
-        if(savePos == 0){
-            Intent intent = new Intent(this, ScheduleActivity.class);
+       if(savePos == 0){
+            Intent intent = new Intent(this, Floor1Activity.class);
             startActivity(intent);
         }
         else if(savePos == 1){
-            Intent intent = new Intent(this, MapActivity.class);
+            Intent intent = new Intent(this, Floor2Activity.class);
             startActivity(intent);
         }
         else if(savePos == 2){
-            Intent intent = new Intent(this, MentorActivity.class);
+            Intent intent = new Intent(this, Floor3Activity.class);
+            startActivity(intent);
+        }
+        else if(savePos == 3){
+            Intent intent = new Intent(this, Floor4Activity.class);
             startActivity(intent);
         }
         else{
-            Intent intent = new Intent(this, LiveStreamActivity.class);
+            Intent intent = new Intent(this, Floor5Activity.class);
             startActivity(intent);
         }
+
+        Intent intent = new Intent(this, Floor1Activity.class);
+        startActivity(intent);
     }
 }
-
-
