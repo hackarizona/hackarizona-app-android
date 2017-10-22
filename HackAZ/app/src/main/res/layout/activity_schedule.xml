@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hackaz.ScheduleActivity"
-    >
+    tools:context="com.example.hackaz.schedule.ScheduleActivity"
+    android:background="@drawable/bg_gradient">
 
-
-    <TextView
-        android:id="@+id/textView"
+    <ListView
+        android:id="@+id/scheduleList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Schedule Placeholder"
-        app:layout_constraintBaseline_toBaselineOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_constraintBaseline_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:text="Schedule Placeholder"
-        android:layout_marginLeft="-44dp" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="8dp" />
 
-</android.support.constraint.ConstraintLayout>
+</android.widget.RelativeLayout>

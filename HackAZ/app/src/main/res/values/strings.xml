@@ -5,4 +5,5 @@
     <string name="title_activity_friday">FridayActivity</string>
     <string name="title_activity_saturday">SaturdayActivity</string>
     <string name="title_activity_sunday">SundayActivity</string>
+    <string name="title_activity_floor1">Floor1Activity</string>
 </resources>

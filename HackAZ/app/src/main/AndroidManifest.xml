@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ScheduleActivity"
+            android:name=".schedule.ScheduleActivity"
             android:label="@string/title_activity_schedule_view"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -25,21 +25,29 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.hackaz.MainActivity" />
         </activity>
-        <activity android:name=".MapActivity" />
-        <activity android:name=".LiveStreamActivity" />
-        <activity android:name=".MentorActivity" />
+        <activity android:name=".map.MapActivity" />
+        <activity android:name=".livestream.LiveStreamActivity" />
+        <activity android:name=".mentors.MentorActivity" />
         <activity
-            android:name=".FridayActivity"
+            android:name=".schedule.days.FridayActivity"
             android:label="@string/title_activity_friday"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SaturdayActivity"
+            android:name=".schedule.days.SaturdayActivity"
             android:label="@string/title_activity_saturday"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SundayActivity"
+            android:name=".schedule.days.SundayActivity"
             android:label="@string/title_activity_sunday"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".map.floors.Floor1Activity"
+            android:label="@string/title_activity_floor1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".map.floors.Floor2Activity" />
+        <activity android:name=".map.floors.Floor3Activity" />
+        <activity android:name=".map.floors.Floor4Activity" />
+        <activity android:name=".map.floors.Floor5Activity"></activity>
     </application>
 
 </manifest>
