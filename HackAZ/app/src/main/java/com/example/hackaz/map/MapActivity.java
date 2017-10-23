@@ -91,8 +91,5 @@ public class MapActivity extends AppCompatActivity {
             Intent intent = new Intent(this, Floor5Activity.class);
             startActivity(intent);
         }
-
-        Intent intent = new Intent(this, Floor1Activity.class);
-        startActivity(intent);
     }
 }
