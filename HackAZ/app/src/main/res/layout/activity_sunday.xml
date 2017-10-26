@@ -8,12 +8,10 @@
     android:background="@drawable/bg_gradient">
 
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sunday Schedule"
-        android:layout_marginTop="142dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+    <ListView
+        android:id="@+id/sunday_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
 </android.widget.RelativeLayout>
