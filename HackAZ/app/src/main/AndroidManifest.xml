@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hackaz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".schedule.ScheduleActivity"
+            android:label="@string/title_activity_schedule_view"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hackaz.MainActivity" />
+        </activity>
+        <activity
+            android:name=".map.MapActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".livestream.LiveStreamActivity" />
+        <activity android:name=".mentors.MentorActivity" />
+        <activity
+            android:name=".schedule.days.FridayActivity"
+            android:label="@string/title_activity_friday"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".schedule.days.SaturdayActivity"
+            android:label="@string/title_activity_saturday"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".schedule.days.SundayActivity"
+            android:label="@string/title_activity_sunday"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".map.floors.Floor1Activity"
+            android:label="@string/title_activity_floor1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".map.floors.Floor2Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".map.floors.Floor3Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".map.floors.Floor4Activity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".map.floors.Floor5Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

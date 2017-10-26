@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\f11faca94486405605dbb5e32b406155f4b14f91\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\65faf4bd2f9122ef06bd7750df3cc13851916a4f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\1dcb0c360a72b1551f55970874f2457401b3e6da\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\91a308df2ce4d12c57efc86128ec25972e9b360e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\0ac91f777c46244d6b24ea773ba201eaa6bdd4b3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\364fd1a5581bdfe9da5c09342bf908d3b0853e3d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\1010466ef45b30a26b071a04574946c715ce84fe\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\694e2f22df3188ee454ff8ec01a8a6c317d7883c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\3b4195084d5a09085f1c60d5b67f3e49c838e79a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.android\build-cache\5c104332f30d3d3f79251780729e62ea14de6189\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.myapplication.MainActivity
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.myapplication.DisplayMessageActivity
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:19:9-25:20
+	android:parentActivityName
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:20:13-55
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:19:19-57
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:22:13-24:49
+	android:value
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:24:17-46
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml:23:17-63
+uses-sdk
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\f11faca94486405605dbb5e32b406155f4b14f91\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\65faf4bd2f9122ef06bd7750df3cc13851916a4f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\1dcb0c360a72b1551f55970874f2457401b3e6da\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\91a308df2ce4d12c57efc86128ec25972e9b360e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\0ac91f777c46244d6b24ea773ba201eaa6bdd4b3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\364fd1a5581bdfe9da5c09342bf908d3b0853e3d\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\1010466ef45b30a26b071a04574946c715ce84fe\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\694e2f22df3188ee454ff8ec01a8a6c317d7883c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\3b4195084d5a09085f1c60d5b67f3e49c838e79a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.android\build-cache\5c104332f30d3d3f79251780729e62ea14de6189\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\f11faca94486405605dbb5e32b406155f4b14f91\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\MyApplication\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\f11faca94486405605dbb5e32b406155f4b14f91\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\65faf4bd2f9122ef06bd7750df3cc13851916a4f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\1dcb0c360a72b1551f55970874f2457401b3e6da\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\91a308df2ce4d12c57efc86128ec25972e9b360e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\0ac91f777c46244d6b24ea773ba201eaa6bdd4b3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\364fd1a5581bdfe9da5c09342bf908d3b0853e3d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\1010466ef45b30a26b071a04574946c715ce84fe\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\694e2f22df3188ee454ff8ec01a8a6c317d7883c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\3b4195084d5a09085f1c60d5b67f3e49c838e79a\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\f11faca94486405605dbb5e32b406155f4b14f91\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Joe Kimbuende\.android\build-cache\f11faca94486405605dbb5e32b406155f4b14f91\output\AndroidManifest.xml:26:9-47
