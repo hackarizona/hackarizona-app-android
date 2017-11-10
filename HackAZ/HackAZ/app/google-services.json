@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "710581430778",
+    "project_id": "firebase-hackaz"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710581430778:android:9c547b5ed466b580",
+        "android_client_info": {
+          "package_name": "com.android.vending"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710581430778-io09gdl3inrc0m45calmbfi1mdffguhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwz9esj_9WgKsw5h7VMa5_UBovUUBIN-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
