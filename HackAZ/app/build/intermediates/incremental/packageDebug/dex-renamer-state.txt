@@ -1,0 +1,7 @@
+#Wed Nov 08 00:45:14 MST 2017
+base.0=C\:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\HackAZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_85cc367192e9a7e2652bf8ce6213034adb240ce3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\HackAZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_173dcfefaa30f8d5c1703fec6bf8e63b988a6a53\\classes.dex
+base.1=C\:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\HackAZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_173dcfefaa30f8d5c1703fec6bf8e63b988a6a53
+file.0=C\:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\HackAZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_85cc367192e9a7e2652bf8ce6213034adb240ce3\\classes.dex
