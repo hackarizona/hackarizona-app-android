@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "125648099887",
+    "firebase_url": "https://hackaz-930bb.firebaseio.com",
+    "project_id": "hackaz-930bb",
+    "storage_bucket": "hackaz-930bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125648099887:android:e8b0f97d47aaa9b3",
+        "android_client_info": {
+          "package_name": "com.example.hackaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125648099887-7fro7k6ve7bv4tsk1mv3pnuq4b7rv0r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackaz",
+            "certificate_hash": "3cc1e7de3d7d1c51344cde0e8e4e852e194a0104"
+          }
+        },
+        {
+          "client_id": "125648099887-mcs0n4qfcupq7n4a2oqohbhvbgiv46k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtnI5rXQVBU4beLN8ptK6yZfm-_g2Wqlk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125648099887-mcs0n4qfcupq7n4a2oqohbhvbgiv46k3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
