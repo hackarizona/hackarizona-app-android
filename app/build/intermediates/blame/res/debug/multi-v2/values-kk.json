@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk\\values-kk.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.0.4.aar\\02b47653f8868be87e7b215b22d7ad67\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "222",
+                        "endOffsets": "507"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "222",
+                        "endOffsets": "323"
+                    }
+                }
+            ]
+        }
+    ]
+}
