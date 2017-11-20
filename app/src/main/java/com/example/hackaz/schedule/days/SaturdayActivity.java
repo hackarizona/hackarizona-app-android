@@ -87,8 +87,9 @@ public class SaturdayActivity extends Activity {
         DownloadTask task = new DownloadTask();
         String result = null;
 
+
         try {
-            result = task.execute("http://hackarizona.org/2017/schedule2017.json").get();
+            result = task.execute("http://hackarizona.org/2017/masterschedule2017.json").get();
         }
         catch (InterruptedException e) {
             e.printStackTrace();
@@ -97,7 +98,7 @@ public class SaturdayActivity extends Activity {
             f.printStackTrace();
         }
 
-        Log.i("Contents Of URL", result);
+        Log.i("Contents Of URL for Saturday", result);
 
         addJSONContent(result);
         setUpListView();
@@ -110,11 +111,11 @@ public class SaturdayActivity extends Activity {
         try {
             JSONObject jsonObject = new JSONObject(result);
 
-            String fridayInfo = jsonObject.getString("saturday");
+            String saturdayInfo = jsonObject.getString("saturday");
 
-            Log.i("Saturday Content", fridayInfo);
+            Log.i("Saturday Content", saturdayInfo);
 
-            JSONArray events = new JSONArray(fridayInfo);
+            JSONArray events = new JSONArray(saturdayInfo);
             //Log.i("friday events", events.getString("event"));
 
             //can loop through array
@@ -122,8 +123,8 @@ public class SaturdayActivity extends Activity {
 
                 JSONObject event = events.getJSONObject(i);
 
-                daySchedule.add(event.getString("name"));
-                daySchedule.add(event.getString("time"));
+                daySchedule.add("\n" + event.getString("eventtitle") + " " + event.getString("subtitle") + "\n" +
+                        event.getString("time") + " - " + event.getString("location") + "\n" );
             }
         }
         catch (JSONException e){
@@ -149,7 +150,7 @@ public class SaturdayActivity extends Activity {
 
             /*YOUR CHOICE OF COLOR*/
                 textView.setTextColor(Color.WHITE);
-                textView.setTextSize(20);
+                textView.setTextSize(15);
                 return view;
             }
         };

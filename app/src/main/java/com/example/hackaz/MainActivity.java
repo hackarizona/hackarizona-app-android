@@ -40,8 +40,6 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
-
-
         savePos = 0;
         pages = new ArrayList<>();
         pages.add("Schedule");

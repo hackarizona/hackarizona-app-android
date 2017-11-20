@@ -88,7 +88,7 @@ public class SundayActivity extends Activity {
         String result = null;
 
         try {
-            result = task.execute("http://hackarizona.org/2017/schedule2017.json").get();
+            result = task.execute("http://hackarizona.org/2017/masterschedule2017.json").get();
         }
         catch (InterruptedException e) {
             e.printStackTrace();
@@ -110,19 +110,19 @@ public class SundayActivity extends Activity {
         try {
             JSONObject jsonObject = new JSONObject(result);
 
-            String fridayInfo = jsonObject.getString("sunday");
+            String sundayInfo = jsonObject.getString("sunday");
 
-            Log.i("Sunday Content", fridayInfo);
+            Log.i("Sunday Content", sundayInfo);
 
-            JSONArray events = new JSONArray(fridayInfo);
+            JSONArray events = new JSONArray(sundayInfo);
 
             //can loop through array
             for (int i = 0; i < events.length(); i++){
 
                 JSONObject event = events.getJSONObject(i);
 
-                daySchedule.add(event.getString("name"));
-                daySchedule.add(event.getString("time"));
+                daySchedule.add("\n" + event.getString("eventtitle") + " " + event.getString("subtitle") + "\n" +
+                        event.getString("time") + " - " + event.getString("location") + "\n" );
             }
         }
         catch (JSONException e){
@@ -148,7 +148,7 @@ public class SundayActivity extends Activity {
 
             /*YOUR CHOICE OF COLOR*/
                 textView.setTextColor(Color.WHITE);
-                textView.setTextSize(20);
+                textView.setTextSize(15);
                 return view;
             }
         };
