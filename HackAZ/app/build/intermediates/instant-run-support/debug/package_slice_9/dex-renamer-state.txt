@@ -1,4 +1,0 @@
-#Sun Oct 22 20:50:55 CDT 2017
-base.0=C\:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\HackAZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
-renamed.0=classes.dex
-file.0=C\:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\HackAZ\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

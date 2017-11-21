@@ -3,9 +3,8 @@ package com.example.hackaz;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,17 +12,12 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import java.util.Timer;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
 
-import com.example.hackaz.livestream.LiveStreamActivity;
 import com.example.hackaz.map.MapActivity;
 import com.example.hackaz.mentors.MentorActivity;
 import com.example.hackaz.schedule.ScheduleActivity;
 
 import java.util.ArrayList;
-import java.util.TimerTask;
 
 public class MainActivity extends Activity {
 
@@ -33,6 +27,7 @@ public class MainActivity extends Activity {
     TextView adSponsorText;
     ArrayList<String> sponsors; // list of all sponsors
     int i = 0;
+    private String notification_channel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,11 +78,6 @@ public class MainActivity extends Activity {
         listView.setAdapter(adapter);
 
 
-        /*
-        This thread will run the sponsor ads - for now it will be commented out
-        - Joe
-         */
-        /*
         Thread t = new Thread() {
             @Override
             public void run() {
@@ -119,7 +109,6 @@ public class MainActivity extends Activity {
         };
 
         t.start();
-        */
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -161,7 +150,7 @@ public class MainActivity extends Activity {
             startActivity(intent);
         }
         else{
-            Intent intent = new Intent(this, LiveStreamActivity.class);
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtu.be/9-3OCc5g5oE"));
             startActivity(intent);
         }
     }
