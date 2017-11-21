@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Joe Kimbuende\\.android\\build-cache\\76872e2632dab5a8541edb13be8f01dcbe310564\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]
