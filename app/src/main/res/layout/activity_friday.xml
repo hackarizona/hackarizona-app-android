@@ -8,6 +8,14 @@
     android:background="@drawable/bg_gradient">
 
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/dot_description"
+        android:src="@drawable/orange_dot"
+        android:visibility="visible" />
+
     <ListView
         android:id="@+id/friday_list"
         android:layout_width="match_parent"

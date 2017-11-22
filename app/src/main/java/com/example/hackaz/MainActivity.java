@@ -85,7 +85,7 @@ public class MainActivity extends Activity {
         This thread will run the sponsor ads - for now it will be commented out
         - Joe
          */
-        /*
+
         Thread t = new Thread() {
             @Override
             public void run() {
@@ -117,7 +117,7 @@ public class MainActivity extends Activity {
         };
 
         t.start();
-        */
+
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

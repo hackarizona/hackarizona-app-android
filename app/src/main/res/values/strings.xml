@@ -7,4 +7,6 @@
     <string name="title_activity_sunday">SundayActivity</string>
     <string name="title_activity_floor1">Floor1Activity</string>
     <string name="hack_arizona">Hack Arizona</string>
+    <string name="dot_description">Dot preceding each item in list</string>
+    <item name="imageView5" type="id"/>
 </resources>
