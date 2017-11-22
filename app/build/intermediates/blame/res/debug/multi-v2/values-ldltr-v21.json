@@ -1,25 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\AndroidCurrentDevProjects\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "C:\\Users\\Emily the Destroyer\\Documents\\gitrepos\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\46f89344fb748d2c00a69b26031f0be4\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "112",
-                        "endOffsets": "163"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "F:\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\fe82ab5ed0159862765973729c6d932b\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

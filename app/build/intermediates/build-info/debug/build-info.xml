@@ -3,193 +3,103 @@
     abi="x86"
     api-level="26"
     build-mode="FULL"
-<<<<<<< HEAD
-    density="560dpi"
-    format="10"
-    plugin-version="3.0.0"
-    timestamp="1511309875888"
-    token="-4347002961260191354"
-=======
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1511299171603"
-    token="2595814432015456895"
->>>>>>> 753eb803de63b88da523a4db4ca87353ac6eeaca
+    timestamp="1511375657653"
+    token="-3295288007265328042"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-<<<<<<< HEAD
-        duration="23701" />
-=======
-        duration="1388" />
->>>>>>> 753eb803de63b88da523a4db4ca87353ac6eeaca
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-<<<<<<< HEAD
-        duration="888" />
+        duration="6748" />
     <task
         name="verifier"
-        duration="1132" />
+        duration="4163" />
 
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
-    <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-
-    <build
-        build-mode="FULL"
-        timestamp="1511309875888"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-=======
-        duration="526" />
-    <task
-        name="verifier"
-        duration="3063" />
-
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\AndroidCurrentDevProjects\HackAZ\app\build\outputs\apk\debug\app-debug.apk"
+        location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\outputs\apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1511299171603"
+        timestamp="1511375657653"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
->>>>>>> 753eb803de63b88da523a4db4ca87353ac6eeaca
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-<<<<<<< HEAD
-            location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\outputs\apk\debug\app-debug.apk"
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-=======
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
->>>>>>> 753eb803de63b88da523a4db4ca87353ac6eeaca
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-<<<<<<< HEAD
-            location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-=======
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidCurrentDevProjects\HackAZ\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
->>>>>>> 753eb803de63b88da523a4db4ca87353ac6eeaca
     </build>
 
 </instant-run>

@@ -1,26 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\AndroidCurrentDevProjects\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "C:\\Users\\Emily the Destroyer\\Documents\\gitrepos\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\46f89344fb748d2c00a69b26031f0be4\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "13",
-                        "endOffsets": "327"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "F:\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\fe82ab5ed0159862765973729c6d932b\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

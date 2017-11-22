@@ -1,32 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\AndroidCurrentDevProjects\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
+            "outputFile": "C:\\Users\\Emily the Destroyer\\Documents\\gitrepos\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.0.4.aar\\f23a0c4893146046c941241a2aee8aab\\res\\values-mr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "285",
-                        "endColumns": "201",
-                        "endOffsets": "486"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "201",
-                        "endOffsets": "302"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "F:\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.0.4.aar\\0b0f87f94a7ccd0b96000c07495631ab\\res\\values-mr\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

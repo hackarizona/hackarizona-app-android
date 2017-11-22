@@ -1,4 +1,4 @@
-#Tue Nov 21 14:19:54 MST 2017
-base.0=F\:\\AndroidCurrentDevProjects\\HackAZ\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+#Wed Nov 22 11:37:01 MST 2017
+base.0=C\:\\Users\\Emily the Destroyer\\Documents\\gitrepos\\HackAZ\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
 path.0=classes.dex
 renamed.0=classes.dex
