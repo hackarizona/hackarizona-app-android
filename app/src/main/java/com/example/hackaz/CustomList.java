@@ -20,7 +20,7 @@ public class CustomList extends ArrayAdapter<String> {
 
     private final Activity context;
     private final String[] events; // list of events for a specific day
-    private final Integer[] imageId; // list of image id's for the dots 
+    private final Integer[] imageId; // list of image id's for the dots
 
     public CustomList(Activity context, String[] events, Integer[] imageId) {
         super(context, android.R.layout.simple_list_item_1, events);
