@@ -32,6 +32,14 @@
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_socialmedia_icon.jpg.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\new_socialmedia_icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pink_dot.png.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\pink_dot.png"
+    },
+    {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
@@ -288,6 +296,10 @@
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_map_icon.jpg.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\new_map_icon.jpg"
+    },
+    {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\anim\\abc_fade_out.xml"
     },
@@ -466,6 +478,10 @@
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_mentorhub_icon.jpg.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\new_mentorhub_icon.jpg"
     },
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
@@ -728,6 +744,10 @@
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_dot.png.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\green_dot.png"
+    },
+    {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -742,6 +762,10 @@
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orange_dot.png.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\orange_dot.png"
     },
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
@@ -762,6 +786,10 @@
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_dot.png.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\red_dot.png"
     },
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -886,6 +914,10 @@
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_logoheader_icon.jpg.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\new_logoheader_icon.jpg"
     },
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -1052,6 +1084,10 @@
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_dot.png.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\blue_dot.png"
+    },
+    {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
@@ -1086,6 +1122,10 @@
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_schedule_icon.jpg.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\new_schedule_icon.jpg"
     },
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
@@ -1348,6 +1388,10 @@
         "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_livestream_icon.jpg.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\new_livestream_icon.jpg"
+    },
+    {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -1564,6 +1608,10 @@
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yellow_dot.png.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\yellow_dot.png"
+    },
+    {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -1738,6 +1786,10 @@
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_events_icon.jpg.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\new_events_icon.jpg"
     },
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",

@@ -5,10 +5,12 @@ import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -26,7 +28,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
-
 
 public class FridayActivity extends Activity {
 
@@ -88,7 +89,7 @@ public class FridayActivity extends Activity {
         String result = null;
 
         try {
-            result = task.execute("http://hackarizona.org/2017/schedule2017.json").get();
+            result = task.execute("http://hackarizona.org/2017/masterschedule2017.json").get();
         }
         catch (InterruptedException e) {
             e.printStackTrace();
@@ -97,9 +98,10 @@ public class FridayActivity extends Activity {
             f.printStackTrace();
         }
 
-        Log.i("Contents Of URL", result);
+        Log.i("Contents Of URL for Friday", result);
 
         addJSONContent(result);
+
         setUpListView();
 
     }
@@ -117,13 +119,13 @@ public class FridayActivity extends Activity {
             JSONArray events = new JSONArray(fridayInfo);
             //Log.i("friday events", events.getString("event"));
 
-            //can loop through array
+            //add each events info to the schedule
             for (int i = 0; i < events.length(); i++){
-
                 JSONObject event = events.getJSONObject(i);
 
-                daySchedule.add(event.getString("name"));
-                daySchedule.add(event.getString("time"));
+                daySchedule.add("\n" + event.getString("eventtitle") + " " + event.getString("subtitle") + "\n" +
+                        event.getString("time") + " - " + event.getString("location") + "\n" );
+
             }
         }
         catch (JSONException e){
@@ -149,7 +151,7 @@ public class FridayActivity extends Activity {
 
             /*YOUR CHOICE OF COLOR*/
                 textView.setTextColor(Color.WHITE);
-                textView.setTextSize(20);
+                textView.setTextSize(15);
                 return view;
             }
         };
