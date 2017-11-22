@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "F:\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\f0a3803ec0a20d23959e496562da8e96\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\fe82ab5ed0159862765973729c6d932b\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\AndroidCurrentDevProjects\\HackAZ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\46f89344fb748d2c00a69b26031f0be4\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
