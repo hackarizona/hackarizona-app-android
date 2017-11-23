@@ -1,298 +1,310 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-78:12
-MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\48abeb350f087950bd470846813182a8\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f0a3803ec0a20d23959e496562da8e96\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\eb061756a469f1a56530b35f49057517\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\80145f30166195253e25158634d45b7c\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\6171aa34e98ab0bceabe301df07977e8\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\5245791930966268714eb3e3ff7febff\AndroidManifest.xml:16:1-30:12
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\9de4b0fa3792b51df9135588a20a0776\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\c6452dc69d5326be179321462fa6f6c3\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\04857ef7a28f2a150e03650e57a2fdd5\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\da83bfce8b88614c29433f8671ced48b\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:16:1-35:12
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:16:1-29:12
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:16:1-50:12
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2a2b954bd4ba024e2c42cee4924ecbb0\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\02b47653f8868be87e7b215b22d7ad67\AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\c4bd9ea2a7209da883913a1a7a14a605\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\694f5d29f7537cc0562143dc37d78a24\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\c608fc115a406683455b6341b2ba02af\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\32090a3f3c00daf02d0b1414201803d9\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\8dcc29e3274d5ce4b28e6587d16455dc\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\68fd3cf8a960b7c7ebb5923e12c72784\AndroidManifest.xml:17:1-31:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-78:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-78:12
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-85:12
+MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\822e3f2a6e54c45808d0892b3419ea51\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ececd3856e8252295dbfa3d2258ef494\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\6155d5272aa05f42d9e082a79c96fc28\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\ba8d39b2c6b6914c05f23e73ca9ca229\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\720d3eb783bc9de2696dec2e3b211b07\AndroidManifest.xml:16:1-30:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\e16b8c1e93e4e36325369ae0237c6df6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\faf2f5a0acb07773610b4aa3f1295029\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\f92738d2011406eda078ff891eb83f69\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\eafef77e89394e784e13a689608c00ff\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\492f1067e27f57ba105bd8d666589ff7\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\e20e627d9fa9dad8e5f1e6f55f5f2f80\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\60d9024c1c97b3fe67d400749d6249bf\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\43615b709775b5acb42613c296af9849\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b280672b3e7ec27a30cc0d7de996ac6e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fad69166af0fc5c9a406ab6e4657b185\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\baa2d26c6a1381e5735a8182110c82ea\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\35b90279042cfcc898a99aa6c59b8a19\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-85:12
 	package
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-78:12
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-85:12
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-78:12
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-85:12
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:5:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:6:5-79
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:19:5-78
 	android:name
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:6:22-76
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:8:5-10:58
+	android:resource
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:10:9-55
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:9:9-79
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:11:5-13:49
+	android:resource
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:13:9-46
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:12:9-80
 application
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:8:5-76:19
-MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\48abeb350f087950bd470846813182a8\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\48abeb350f087950bd470846813182a8\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f0a3803ec0a20d23959e496562da8e96\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f0a3803ec0a20d23959e496562da8e96\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\eb061756a469f1a56530b35f49057517\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\eb061756a469f1a56530b35f49057517\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\80145f30166195253e25158634d45b7c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\80145f30166195253e25158634d45b7c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\6171aa34e98ab0bceabe301df07977e8\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\6171aa34e98ab0bceabe301df07977e8\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\5245791930966268714eb3e3ff7febff\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\5245791930966268714eb3e3ff7febff\AndroidManifest.xml:19:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\9de4b0fa3792b51df9135588a20a0776\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\9de4b0fa3792b51df9135588a20a0776\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\c6452dc69d5326be179321462fa6f6c3\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\c6452dc69d5326be179321462fa6f6c3\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\04857ef7a28f2a150e03650e57a2fdd5\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\04857ef7a28f2a150e03650e57a2fdd5\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\da83bfce8b88614c29433f8671ced48b\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\da83bfce8b88614c29433f8671ced48b\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2a2b954bd4ba024e2c42cee4924ecbb0\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2a2b954bd4ba024e2c42cee4924ecbb0\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\02b47653f8868be87e7b215b22d7ad67\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\02b47653f8868be87e7b215b22d7ad67\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\c4bd9ea2a7209da883913a1a7a14a605\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\c4bd9ea2a7209da883913a1a7a14a605\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\694f5d29f7537cc0562143dc37d78a24\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\694f5d29f7537cc0562143dc37d78a24\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\c608fc115a406683455b6341b2ba02af\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\c608fc115a406683455b6341b2ba02af\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\32090a3f3c00daf02d0b1414201803d9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\32090a3f3c00daf02d0b1414201803d9\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\8dcc29e3274d5ce4b28e6587d16455dc\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\8dcc29e3274d5ce4b28e6587d16455dc\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\68fd3cf8a960b7c7ebb5923e12c72784\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\68fd3cf8a960b7c7ebb5923e12c72784\AndroidManifest.xml:25:5-29:19
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:15:5-83:19
+MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\822e3f2a6e54c45808d0892b3419ea51\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\822e3f2a6e54c45808d0892b3419ea51\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ececd3856e8252295dbfa3d2258ef494\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ececd3856e8252295dbfa3d2258ef494\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\6155d5272aa05f42d9e082a79c96fc28\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\6155d5272aa05f42d9e082a79c96fc28\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\ba8d39b2c6b6914c05f23e73ca9ca229\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\ba8d39b2c6b6914c05f23e73ca9ca229\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\720d3eb783bc9de2696dec2e3b211b07\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\720d3eb783bc9de2696dec2e3b211b07\AndroidManifest.xml:19:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\e16b8c1e93e4e36325369ae0237c6df6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\e16b8c1e93e4e36325369ae0237c6df6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\faf2f5a0acb07773610b4aa3f1295029\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\faf2f5a0acb07773610b4aa3f1295029\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\f92738d2011406eda078ff891eb83f69\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\f92738d2011406eda078ff891eb83f69\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\eafef77e89394e784e13a689608c00ff\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\eafef77e89394e784e13a689608c00ff\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\492f1067e27f57ba105bd8d666589ff7\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\492f1067e27f57ba105bd8d666589ff7\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\e20e627d9fa9dad8e5f1e6f55f5f2f80\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\e20e627d9fa9dad8e5f1e6f55f5f2f80\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\60d9024c1c97b3fe67d400749d6249bf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\60d9024c1c97b3fe67d400749d6249bf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\43615b709775b5acb42613c296af9849\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\43615b709775b5acb42613c296af9849\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b280672b3e7ec27a30cc0d7de996ac6e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b280672b3e7ec27a30cc0d7de996ac6e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fad69166af0fc5c9a406ab6e4657b185\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fad69166af0fc5c9a406ab6e4657b185\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\baa2d26c6a1381e5735a8182110c82ea\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\baa2d26c6a1381e5735a8182110c82ea\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\35b90279042cfcc898a99aa6c59b8a19\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\35b90279042cfcc898a99aa6c59b8a19\AndroidManifest.xml:25:5-29:19
 	android:supportsRtl
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:18:9-41
 	android:roundIcon
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:19:9-54
 	android:icon
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:17:9-43
 	android:allowBackup
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:14:9-52
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:21:9-52
 activity#com.example.hackaz.MainActivity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:22:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:26:27-74
 activity#com.example.hackaz.schedule.ScheduleActivity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:22:9-30:20
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:29:9-37:20
 	android:parentActivityName
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:25:13-55
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:32:13-55
 	android:label
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:24:13-65
-	android:theme
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:26:13-56
-	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:23:13-54
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:27:13-29:67
-	android:value
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:29:17-64
-	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:28:17-63
-activity#com.example.hackaz.map.MapActivity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:31:9-33:58
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:31:13-65
 	android:theme
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:32:13-44
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:30:13-54
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:34:13-36:67
+	android:value
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:36:17-64
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:35:17-63
+activity#com.example.hackaz.map.MapActivity
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:38:9-40:58
+	android:theme
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:39:13-44
 activity#com.example.hackaz.livestream.LiveStreamActivity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:34:9-67
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:41:9-67
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:34:19-64
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:41:19-64
 activity#com.example.hackaz.mentors.MentorActivity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:35:9-60
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:42:9-60
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:35:19-57
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:42:19-57
 activity#com.example.hackaz.schedule.days.FridayActivity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:36:9-39:59
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:43:9-46:59
 	android:label
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:38:13-58
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:45:13-58
 	android:theme
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:39:13-56
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:46:13-56
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:37:13-57
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:44:13-57
 activity#com.example.hackaz.schedule.days.SaturdayActivity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:40:9-43:59
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:47:9-50:59
 	android:label
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:42:13-60
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:49:13-60
 	android:theme
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:43:13-56
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:50:13-56
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:41:13-59
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:48:13-59
 activity#com.example.hackaz.schedule.days.SundayActivity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:44:9-47:59
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:51:9-54:59
 	android:label
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:46:13-58
-	android:theme
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:47:13-56
-	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:45:13-57
-activity#com.example.hackaz.map.floors.Floor1Activity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:48:9-51:59
-	android:label
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:50:13-58
-	android:theme
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:51:13-56
-	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:49:13-54
-activity#com.example.hackaz.map.floors.Floor2Activity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:52:9-54:58
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:53:13-58
 	android:theme
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:54:13-56
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:53:13-54
-activity#com.example.hackaz.map.floors.Floor3Activity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:55:9-57:58
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:52:13-57
+activity#com.example.hackaz.map.floors.Floor1Activity
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:55:9-58:59
+	android:label
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:57:13-58
 	android:theme
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:57:13-56
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:58:13-56
 	android:name
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:56:13-54
+activity#com.example.hackaz.map.floors.Floor2Activity
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:59:9-61:58
+	android:theme
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:61:13-56
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:60:13-54
+activity#com.example.hackaz.map.floors.Floor3Activity
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:62:9-64:58
+	android:theme
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:64:13-56
+	android:name
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:63:13-54
 activity#com.example.hackaz.map.floors.Floor4Activity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:58:9-60:58
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:65:9-67:58
 	android:theme
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:60:13-56
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:67:13-56
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:59:13-54
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:66:13-54
 activity#com.example.hackaz.map.floors.Floor5Activity
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:61:9-63:59
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:68:9-70:59
 	android:theme
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:63:13-56
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:70:13-56
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:62:13-54
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:69:13-54
 service#com.example.hackaz.MyFirebaseInstanceIDService
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:64:9-69:19
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:71:9-76:19
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:65:13-56
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:72:13-56
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:66:13-68:29
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:73:13-75:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:67:17-79
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:74:17-79
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:67:25-77
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:74:25-77
 service#com.example.hackaz.MyFirebaseMessagingService
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:70:9-75:19
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:77:9-82:19
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:71:13-55
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:78:13-55
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:72:13-74:29
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:79:13-81:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:73:17-77
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:80:17-77
 	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:73:25-75
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:80:25-75
 uses-sdk
 INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\48abeb350f087950bd470846813182a8\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\48abeb350f087950bd470846813182a8\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f0a3803ec0a20d23959e496562da8e96\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f0a3803ec0a20d23959e496562da8e96\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\eb061756a469f1a56530b35f49057517\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\eb061756a469f1a56530b35f49057517\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\80145f30166195253e25158634d45b7c\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\80145f30166195253e25158634d45b7c\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\6171aa34e98ab0bceabe301df07977e8\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\6171aa34e98ab0bceabe301df07977e8\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\5245791930966268714eb3e3ff7febff\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\5245791930966268714eb3e3ff7febff\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\9de4b0fa3792b51df9135588a20a0776\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\9de4b0fa3792b51df9135588a20a0776\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\c6452dc69d5326be179321462fa6f6c3\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\c6452dc69d5326be179321462fa6f6c3\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\04857ef7a28f2a150e03650e57a2fdd5\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\04857ef7a28f2a150e03650e57a2fdd5\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\da83bfce8b88614c29433f8671ced48b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\da83bfce8b88614c29433f8671ced48b\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2a2b954bd4ba024e2c42cee4924ecbb0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\2a2b954bd4ba024e2c42cee4924ecbb0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\02b47653f8868be87e7b215b22d7ad67\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\02b47653f8868be87e7b215b22d7ad67\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\c4bd9ea2a7209da883913a1a7a14a605\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\c4bd9ea2a7209da883913a1a7a14a605\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\694f5d29f7537cc0562143dc37d78a24\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\694f5d29f7537cc0562143dc37d78a24\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\c608fc115a406683455b6341b2ba02af\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\c608fc115a406683455b6341b2ba02af\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\32090a3f3c00daf02d0b1414201803d9\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\32090a3f3c00daf02d0b1414201803d9\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\8dcc29e3274d5ce4b28e6587d16455dc\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\8dcc29e3274d5ce4b28e6587d16455dc\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\68fd3cf8a960b7c7ebb5923e12c72784\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\68fd3cf8a960b7c7ebb5923e12c72784\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\822e3f2a6e54c45808d0892b3419ea51\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\822e3f2a6e54c45808d0892b3419ea51\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ececd3856e8252295dbfa3d2258ef494\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ececd3856e8252295dbfa3d2258ef494\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\6155d5272aa05f42d9e082a79c96fc28\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\6155d5272aa05f42d9e082a79c96fc28\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\ba8d39b2c6b6914c05f23e73ca9ca229\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-core-11.0.4.aar\ba8d39b2c6b6914c05f23e73ca9ca229\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\720d3eb783bc9de2696dec2e3b211b07\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\720d3eb783bc9de2696dec2e3b211b07\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\e16b8c1e93e4e36325369ae0237c6df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\e16b8c1e93e4e36325369ae0237c6df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\faf2f5a0acb07773610b4aa3f1295029\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\faf2f5a0acb07773610b4aa3f1295029\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\f92738d2011406eda078ff891eb83f69\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\f92738d2011406eda078ff891eb83f69\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\eafef77e89394e784e13a689608c00ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\eafef77e89394e784e13a689608c00ff\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\492f1067e27f57ba105bd8d666589ff7\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\492f1067e27f57ba105bd8d666589ff7\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\e20e627d9fa9dad8e5f1e6f55f5f2f80\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\e20e627d9fa9dad8e5f1e6f55f5f2f80\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\60d9024c1c97b3fe67d400749d6249bf\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\60d9024c1c97b3fe67d400749d6249bf\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\43615b709775b5acb42613c296af9849\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\43615b709775b5acb42613c296af9849\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b280672b3e7ec27a30cc0d7de996ac6e\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b280672b3e7ec27a30cc0d7de996ac6e\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fad69166af0fc5c9a406ab6e4657b185\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fad69166af0fc5c9a406ab6e4657b185\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\baa2d26c6a1381e5735a8182110c82ea\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\baa2d26c6a1381e5735a8182110c82ea\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\35b90279042cfcc898a99aa6c59b8a19\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\35b90279042cfcc898a99aa6c59b8a19\AndroidManifest.xml:21:5-23:58
 INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\48abeb350f087950bd470846813182a8\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
@@ -302,168 +314,168 @@ INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\Andr
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\48abeb350f087950bd470846813182a8\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f0a3803ec0a20d23959e496562da8e96\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f0a3803ec0a20d23959e496562da8e96\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\80145f30166195253e25158634d45b7c\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\80145f30166195253e25158634d45b7c\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\9de4b0fa3792b51df9135588a20a0776\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\9de4b0fa3792b51df9135588a20a0776\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\c6452dc69d5326be179321462fa6f6c3\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\c6452dc69d5326be179321462fa6f6c3\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\04857ef7a28f2a150e03650e57a2fdd5\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\04857ef7a28f2a150e03650e57a2fdd5\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\da83bfce8b88614c29433f8671ced48b\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\da83bfce8b88614c29433f8671ced48b\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\c4bd9ea2a7209da883913a1a7a14a605\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\c4bd9ea2a7209da883913a1a7a14a605\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\694f5d29f7537cc0562143dc37d78a24\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\694f5d29f7537cc0562143dc37d78a24\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\c608fc115a406683455b6341b2ba02af\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\c608fc115a406683455b6341b2ba02af\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\32090a3f3c00daf02d0b1414201803d9\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\32090a3f3c00daf02d0b1414201803d9\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\8dcc29e3274d5ce4b28e6587d16455dc\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\8dcc29e3274d5ce4b28e6587d16455dc\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\68fd3cf8a960b7c7ebb5923e12c72784\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\68fd3cf8a960b7c7ebb5923e12c72784\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\822e3f2a6e54c45808d0892b3419ea51\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\822e3f2a6e54c45808d0892b3419ea51\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\6155d5272aa05f42d9e082a79c96fc28\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:palette-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\palette-v7-25.4.0.aar\6155d5272aa05f42d9e082a79c96fc28\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\e16b8c1e93e4e36325369ae0237c6df6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\e16b8c1e93e4e36325369ae0237c6df6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\faf2f5a0acb07773610b4aa3f1295029\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\faf2f5a0acb07773610b4aa3f1295029\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\f92738d2011406eda078ff891eb83f69\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\f92738d2011406eda078ff891eb83f69\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\eafef77e89394e784e13a689608c00ff\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\transition-25.4.0.aar\eafef77e89394e784e13a689608c00ff\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\60d9024c1c97b3fe67d400749d6249bf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\60d9024c1c97b3fe67d400749d6249bf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\43615b709775b5acb42613c296af9849\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\43615b709775b5acb42613c296af9849\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b280672b3e7ec27a30cc0d7de996ac6e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\b280672b3e7ec27a30cc0d7de996ac6e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fad69166af0fc5c9a406ab6e4657b185\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fad69166af0fc5c9a406ab6e4657b185\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\baa2d26c6a1381e5735a8182110c82ea\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\baa2d26c6a1381e5735a8182110c82ea\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\35b90279042cfcc898a99aa6c59b8a19\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\35b90279042cfcc898a99aa6c59b8a19\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\48abeb350f087950bd470846813182a8\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\48abeb350f087950bd470846813182a8\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:27:13-51
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\5245791930966268714eb3e3ff7febff\AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\720d3eb783bc9de2696dec2e3b211b07\AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\5245791930966268714eb3e3ff7febff\AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\720d3eb783bc9de2696dec2e3b211b07\AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\5245791930966268714eb3e3ff7febff\AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.0.4.aar\720d3eb783bc9de2696dec2e3b211b07\AndroidManifest.xml:23:18-87
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:27:162-184
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:27:185-208
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:27:185-208
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:27:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\abd751abcb47073a9f9aa527d7b9e07e\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.0.4.aar\50823d4742aff4975ab0bc0013ee8e5b\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:32:16-87
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:33:7-197
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:33:7-197
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:33:148-170
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:33:148-170
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:33:171-195
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:33:171-195
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:33:91-147
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:33:91-147
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\a955039cead3fa0db1fac975dc4b3963\AndroidManifest.xml:33:16-90
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.0.4.aar\fa51f73cdf03fc03abfd1a29be4b9a2e\AndroidManifest.xml:33:16-90
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:24:17-71
 permission#com.example.hackaz.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:26:22-76
 uses-permission#com.example.hackaz.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:31:13-34:29
 intent-filter#com.example.hackaz+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:33:27-58
 category#com.example.hackaz
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\599250d38b2dcdb62dd2ef27ab46f014\AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.0.4.aar\f44af0605cfb9f2949082a8c3b14e2b7\AndroidManifest.xml:43:18-82
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\522824d74d2187d99006b0ceaaa6abba\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\firebase-common-11.0.4.aar\cb937fb232c0c5dbb2ec31866c9da30f\AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\02b47653f8868be87e7b215b22d7ad67\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\e20e627d9fa9dad8e5f1e6f55f5f2f80\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\02b47653f8868be87e7b215b22d7ad67\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\e20e627d9fa9dad8e5f1e6f55f5f2f80\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\02b47653f8868be87e7b215b22d7ad67\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\e20e627d9fa9dad8e5f1e6f55f5f2f80\AndroidManifest.xml:20:20-65

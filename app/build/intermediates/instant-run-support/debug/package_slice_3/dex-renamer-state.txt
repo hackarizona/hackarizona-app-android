@@ -1,0 +1,4 @@
+#Thu Nov 23 02:10:24 MST 2017
+base.0=C\:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex
