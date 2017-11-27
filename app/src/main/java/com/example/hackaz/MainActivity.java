@@ -1,6 +1,7 @@
 package com.example.hackaz;
 
 import android.app.Activity;
+import android.app.ListActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -19,7 +20,7 @@ import com.example.hackaz.schedule.ScheduleActivity;
 
 import java.util.ArrayList;
 
-public class MainActivity extends Activity {
+public class  MainActivity extends ListActivity {
 
     ArrayList<String> pages;
     ListView listView;
@@ -44,7 +45,7 @@ public class MainActivity extends Activity {
 
         /* May need to add more to this later */
         sponsors = new ArrayList<>();
-        sponsors.add("IBM");
+        sponsors.add("IBM-");
         sponsors.add("Raytheon");
         sponsors.add("Intuit");
 
@@ -74,7 +75,6 @@ public class MainActivity extends Activity {
             }
         };
         listView.setAdapter(adapter);
-
 
         Thread t = new Thread() {
             @Override
