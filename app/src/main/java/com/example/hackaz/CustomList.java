@@ -34,10 +34,11 @@ public class CustomList extends ArrayAdapter<String> {
         LayoutInflater inflater = context.getLayoutInflater();
         View rowView= inflater.inflate(android.R.layout.simple_list_item_1, null, true);
         TextView txtTitle = (TextView) rowView.findViewById(android.R.id.text1);
-        //ImageView imageView = (ImageView) rowView.findViewById(android.R.id.imageView5);
+        // TODO: Make sure to put an image here for
+        // ImageView imageView = (ImageView) rowView.findViewById(android.R.id.img);
         txtTitle.setText(events[position]);
 
-        //imageView.setImageResource(imageId[position]);
+        // imageView.setImageResource(imageId[position]);
         return rowView;
     }
 }

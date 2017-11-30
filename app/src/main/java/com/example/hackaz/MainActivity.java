@@ -1,7 +1,6 @@
 package com.example.hackaz;
 
 import android.app.Activity;
-import android.app.ListActivity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -20,12 +19,12 @@ import com.example.hackaz.schedule.ScheduleActivity;
 
 import java.util.ArrayList;
 
-public class  MainActivity extends ListActivity {
+public class MainActivity extends Activity {
 
     ArrayList<String> pages;
     ListView listView;
     private int savePos;
-    TextView adSponsorText;
+    // TextView adSponsorText;
     ArrayList<String> sponsors; // list of all sponsors
     int i = 0;
     private String notification_channel;
@@ -45,7 +44,7 @@ public class  MainActivity extends ListActivity {
 
         /* May need to add more to this later */
         sponsors = new ArrayList<>();
-        sponsors.add("IBM-");
+        sponsors.add("IBM");
         sponsors.add("Raytheon");
         sponsors.add("Intuit");
 
@@ -54,7 +53,7 @@ public class  MainActivity extends ListActivity {
 
 
         // Get TextView object from xml
-        adSponsorText = (TextView) findViewById(R.id.text);
+        // adSponsorText = (TextView) findViewById(R.id.text);
 
 
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(
@@ -68,14 +67,15 @@ public class  MainActivity extends ListActivity {
 
             /*YOUR CHOICE OF COLOR*/
                 textView.setTextColor(Color.WHITE);
-                adSponsorText.setTextColor(Color.RED);
+                //adSponsorText.setTextColor(Color.RED);
                 textView.setTextSize(20);
-                adSponsorText.setTextSize(60);
+                //adSponsorText.setTextSize(60);
                 return view;
             }
         };
         listView.setAdapter(adapter);
 
+        /*
         Thread t = new Thread() {
             @Override
             public void run() {
@@ -107,6 +107,7 @@ public class  MainActivity extends ListActivity {
         };
 
         t.start();
+        */
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
