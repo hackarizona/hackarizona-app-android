@@ -38,8 +38,8 @@
         <activity
             android:name=".map.MapActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".livestream.LiveStreamActivity" />
-        <activity android:name=".mentors.MentorActivity" />
+        <activity android:name=".mentorhub.LiveStreamActivity" />
+        <activity android:name=".mentorhub.MentorActivity" />
         <activity
             android:name=".schedule.days.FridayActivity"
             android:label="@string/title_activity_friday"

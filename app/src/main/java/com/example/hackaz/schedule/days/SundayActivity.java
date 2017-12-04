@@ -96,9 +96,6 @@ public class SundayActivity extends Activity {
         catch (ExecutionException f) {
             f.printStackTrace();
         }
-
-        Log.i("Contents Of URL", result);
-
         addJSONContent(result);
         setUpListView();
 
@@ -111,8 +108,6 @@ public class SundayActivity extends Activity {
             JSONObject jsonObject = new JSONObject(result);
 
             String sundayInfo = jsonObject.getString("sunday");
-
-            Log.i("Sunday Content", sundayInfo);
 
             JSONArray events = new JSONArray(sundayInfo);
 

@@ -7,4 +7,6 @@
     <string name="title_activity_sunday">SundayActivity</string>
     <string name="title_activity_floor1">Floor1Activity</string>
     <string name="hack_arizona">Hack Arizona</string>
+    <string name="hackazlogo">Hack Arizona Logo</string>
+    <string name="heart">heart</string>
 </resources>

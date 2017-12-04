@@ -98,8 +98,6 @@ public class FridayActivity extends Activity {
             f.printStackTrace();
         }
 
-        Log.i("Contents Of URL for Friday", result);
-
         addJSONContent(result);
 
         setUpListView();
@@ -114,10 +112,7 @@ public class FridayActivity extends Activity {
 
             String fridayInfo = jsonObject.getString("friday");
 
-            Log.i("Friday Content", fridayInfo);
-
             JSONArray events = new JSONArray(fridayInfo);
-            //Log.i("friday events", events.getString("event"));
 
             //add each events info to the schedule
             for (int i = 0; i < events.length(); i++){
