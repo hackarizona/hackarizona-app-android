@@ -10,10 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.example.hackaz.events.EventsActivity;
 import com.example.hackaz.map.MapActivity;
 import com.example.hackaz.mentorhub.MentorActivity;
 import com.example.hackaz.schedule.ScheduleActivity;
@@ -25,20 +25,13 @@ public class MainActivity extends Activity {
     ArrayList<String> pages;
     ListView listView;
     private int savePos;
-    //TextView adSponsorText;
-    //ArrayList<String> sponsors; // list of all sponsors
-    int i = 0;
-    private String notification_channel;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-
-
-        //RowItem item = new RowItem(@+id/imageView5);
-
 
         savePos = 0;
         pages = new ArrayList<>();
@@ -49,19 +42,8 @@ public class MainActivity extends Activity {
         pages.add("Events");
         pages.add("Mentor Hub");
 
-        /* May need to add more to this later */
-        /*sponsors = new ArrayList<>();
-        sponsors.add("IBM");
-        sponsors.add("Raytheon");
-        sponsors.add("Intuit");*/
-
         // Get ListView object from xml
         listView = (ListView) findViewById(R.id.list);
-
-
-        // Get TextView object from xml
-       // adSponsorText = (TextView) findViewById(R.id.text);
-
 
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(
                 this, android.R.layout.simple_list_item_1, pages){
@@ -74,44 +56,11 @@ public class MainActivity extends Activity {
 
             /*YOUR CHOICE OF COLOR*/
                 textView.setTextColor(Color.WHITE);
-                //adSponsorText.setTextColor(Color.RED);
                 textView.setTextSize(20);
-               // adSponsorText.setTextSize(60);
                 return view;
             }
         };
         listView.setAdapter(adapter);
-
-
-       /* Thread t = new Thread() {
-            @Override
-            public void run() {
-                while (!isInterrupted()) {
-                    try {
-                        Thread.sleep(4000);
-
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-
-
-                                adSponsorText.setText( sponsors.get(i).toString() );
-
-                                i++;
-
-                                if ( i == sponsors.size() )
-                                    i = 0;
-
-                            }
-                        });
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-        };
-
-        t.start();*/
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -121,30 +70,7 @@ public class MainActivity extends Activity {
                 navSubPage();
             }
         });
-
-        /*while ( i != sponsors.size() ) {
-            adSponsorText.setText( sponsors.get( i ).toString() );
-            i++;
-            // resets i back to zero so that list can start over
-            if ( i == sponsors.size() )
-                i = 0;
-            // Delay in 4 seconds between ads
-            try {
-                Thread.sleep(4000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }*/
     }
-
-    /*
-    pages.add("Schedule");
-        pages.add("Map");
-        pages.add("Live Stream");
-        pages.add("Social Media");
-        pages.add("Events");
-        pages.add("Mentor Hub");
-     */
 
     private void navSubPage(){
         if(savePos == 0){
@@ -160,16 +86,17 @@ public class MainActivity extends Activity {
             startActivity(intent);
         }
         else if(savePos == 3){
-            //TODO Social Media
+            Intent intent = new Intent(this, SocialMediaActivity.class);
+            startActivity(intent);
         }
         else if(savePos == 4){
-            //TODO Events
+            Intent intent = new Intent(this, EventsActivity.class);
+            startActivity(intent);
         }
         else{
+            //TODO
             Intent intent = new Intent(this, MentorActivity.class);
             startActivity(intent);
         }
     }
 }
-
-

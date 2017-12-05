@@ -74,9 +74,6 @@ public class FridayActivity extends Activity {
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
-
-
-
         }
     }
 
@@ -99,7 +96,6 @@ public class FridayActivity extends Activity {
         }
 
         addJSONContent(result);
-
         setUpListView();
 
     }

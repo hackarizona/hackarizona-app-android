@@ -18,7 +18,7 @@
         android:adjustViewBounds="true"
         android:contentDescription="HackAZ logo"
         android:scaleType="matrix"
-        android:src="@drawable/hackaz_icon"
+        android:src="@drawable/unnamed"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
