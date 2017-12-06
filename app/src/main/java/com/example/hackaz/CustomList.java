@@ -23,7 +23,7 @@ public class CustomList extends ArrayAdapter<String> {
     private final Integer[] imageId; // list of image id's for the dots
 
     public CustomList(Activity context, String[] events, Integer[] imageId) {
-        super(context, android.R.layout.simple_list_item_1, events);
+        super(context, R.layout.list_single, events);
         this.context = context;
         this.events = events;
         this.imageId = imageId;
@@ -32,13 +32,13 @@ public class CustomList extends ArrayAdapter<String> {
     @Override
     public View getView(int position, View view, ViewGroup parent) {
         LayoutInflater inflater = context.getLayoutInflater();
-        View rowView= inflater.inflate(android.R.layout.simple_list_item_1, null, true);
-        TextView txtTitle = (TextView) rowView.findViewById(android.R.id.text1);
+        View rowView= inflater.inflate(R.layout.list_single, null, true);
+        TextView txtTitle = (TextView) rowView.findViewById(R.id.txt);
         // TODO: Make sure to put an image here for
-        // ImageView imageView = (ImageView) rowView.findViewById(android.R.id.img);
+        //ImageView imageView = (ImageView) rowView.findViewById(R.id.img);
         txtTitle.setText(events[position]);
 
-        // imageView.setImageResource(imageId[position]);
+        //imageView.setImageResource(imageId[position]);
         return rowView;
     }
 }
