@@ -34,7 +34,7 @@ public class FridayActivity extends Activity {
     private ArrayList<String> daySchedule;
     ListView scheduleView;
 
-    private class DownloadTask extends AsyncTask<String, Void, String> {
+    public class DownloadTask extends AsyncTask<String, Void, String> {
 
         @Override
         protected String doInBackground(String... urls) {
@@ -74,9 +74,6 @@ public class FridayActivity extends Activity {
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
-
-
-
         }
     }
 
@@ -98,10 +95,7 @@ public class FridayActivity extends Activity {
             f.printStackTrace();
         }
 
-        Log.i("Contents Of URL for Friday", result);
-
         addJSONContent(result);
-
         setUpListView();
 
     }
@@ -114,10 +108,7 @@ public class FridayActivity extends Activity {
 
             String fridayInfo = jsonObject.getString("friday");
 
-            Log.i("Friday Content", fridayInfo);
-
             JSONArray events = new JSONArray(fridayInfo);
-            //Log.i("friday events", events.getString("event"));
 
             //add each events info to the schedule
             for (int i = 0; i < events.length(); i++){

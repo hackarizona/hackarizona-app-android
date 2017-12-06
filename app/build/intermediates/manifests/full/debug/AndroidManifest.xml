@@ -55,8 +55,8 @@
         <activity
             android:name="com.example.hackaz.map.MapActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.hackaz.livestream.LiveStreamActivity" />
-        <activity android:name="com.example.hackaz.mentors.MentorActivity" />
+        <activity android:name="com.example.hackaz.mentorhub.LiveStreamActivity" />
+        <activity android:name="com.example.hackaz.mentorhub.MentorActivity" />
         <activity
             android:name="com.example.hackaz.schedule.days.FridayActivity"
             android:label="@string/title_activity_friday"
@@ -96,6 +96,23 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name="com.example.hackaz.SocialMediaActivity" />
+        <activity android:name="com.example.hackaz.events.EventsActivity" />
+        <activity android:name="com.example.hackaz.events.activities.ActivitiesActivity" />
+        <activity android:name="com.example.hackaz.events.activities.Fri1Activity" />
+        <activity android:name="com.example.hackaz.events.activities.Sat1Activity" />
+        <activity android:name="com.example.hackaz.events.activities.Sun1Activity" />
+        <activity android:name="com.example.hackaz.events.firstByte.FirstByteActivity" />
+        <activity android:name="com.example.hackaz.events.firstByte.Fri2Activity" />
+        <activity android:name="com.example.hackaz.events.firstByte.Sat2Activity" />
+        <activity android:name="com.example.hackaz.events.firstByte.Sun2Activity" />
+        <activity android:name="com.example.hackaz.events.techTalks.TechTalksActivity" />
+        <activity android:name="com.example.hackaz.events.techTalks.Fri3Activity" />
+        <activity android:name="com.example.hackaz.events.techTalks.Sat3Activity" />
+        <activity android:name="com.example.hackaz.events.techTalks.Sun3Activity" />
+        <activity android:name="com.example.hackaz.CustomListActivity" />
+        <activity android:name="com.example.hackaz.MyAdapter" />
 
         <meta-data
             android:name="android.support.VERSION"
