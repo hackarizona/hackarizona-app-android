@@ -12,7 +12,7 @@ import java.net.URL;
  * Created by Emily the Destroyer on 12/5/2017.
  */
 
-class DownloadTask extends AsyncTask<String, Void, String> {
+public class DownloadTask extends AsyncTask<String, Void, String> {
     private String out;
     @Override
     protected String doInBackground(String... urls) {

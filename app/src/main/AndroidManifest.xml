@@ -95,7 +95,11 @@
         <activity android:name=".events.techTalks.Sat3Activity" />
         <activity android:name=".events.techTalks.Sun3Activity" />
         <activity android:name=".CustomListActivity" />
-        <activity android:name=".MyAdapter"></activity>
+        <activity android:name=".MyAdapter" />
+        <activity android:name=".events.EventTypeActivity" />
+        <activity android:name=".events.EventDayActivity" />
+        <activity android:name=".map.FloorActivity" />
+        <activity android:name=".schedule.ScheduleDayActivity"></activity>
     </application>
 
 </manifest>

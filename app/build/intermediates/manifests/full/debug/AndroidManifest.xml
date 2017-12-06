@@ -113,6 +113,10 @@
         <activity android:name="com.example.hackaz.events.techTalks.Sun3Activity" />
         <activity android:name="com.example.hackaz.CustomListActivity" />
         <activity android:name="com.example.hackaz.MyAdapter" />
+        <activity android:name="com.example.hackaz.events.EventTypeActivity" />
+        <activity android:name="com.example.hackaz.events.EventDayActivity" />
+        <activity android:name="com.example.hackaz.map.FloorActivity" />
+        <activity android:name="com.example.hackaz.schedule.ScheduleDayActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
