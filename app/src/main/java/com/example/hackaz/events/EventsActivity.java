@@ -12,9 +12,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.hackaz.events.activities.ActivitiesActivity;
-import com.example.hackaz.events.firstByte.FirstByteActivity;
-import com.example.hackaz.events.techTalks.TechTalksActivity;
 import com.example.hackaz.R;
 
 import java.util.ArrayList;
@@ -68,17 +65,16 @@ public class EventsActivity extends AppCompatActivity {
     }
 
     private void navSubPage(){
+        Intent intent = new Intent(this, EventTypeActivity.class);
         if(savePos == 0){
-            Intent intent = new Intent(this, ActivitiesActivity.class);
-            startActivity(intent);
+            intent.putExtra("url", "http://hackarizona.org/activities.json");
         }
         else if(savePos == 1){
-            Intent intent = new Intent(this, FirstByteActivity.class);
-            startActivity(intent);
+            intent.putExtra("url", "http://hackarizona.org/firstbyte.json");
         }
-        else if(savePos == 2){
-            Intent intent = new Intent(this, TechTalksActivity.class);
-            startActivity(intent);
+        else{
+            intent.putExtra("url", "http://hackarizona.org/techtalks.json");
         }
+        startActivity(intent);
     }
 }

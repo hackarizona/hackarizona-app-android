@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-101:12
-INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-101:12
-INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-101:12
-INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-101:12
+ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-105:12
 MERGED from [com.android.support:design:25.4.0] C:\Users\Emily the Destroyer\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\024ac325a6dfce13882458a59da8a2b9\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Emily the Destroyer\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\46f89344fb748d2c00a69b26031f0be4\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Emily the Destroyer\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\598dd1d8215b7cc11aebb0fec9c20677\AndroidManifest.xml:2:1-11:12
@@ -26,20 +26,20 @@ MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Emily the D
 MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Emily the Destroyer\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\c495f3eca210ff10f0fe88608781dcf1\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Emily the Destroyer\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\0847aa38739304f665ddec850284bd54\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Emily the Destroyer\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\2ec32b6482a954dd061e370fe39937a6\AndroidManifest.xml:17:1-31:12
-INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-101:12
-INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-101:12
-INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-105:12
+INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-105:12
 	package
 		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-101:12
+		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-105:12
 		INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-101:12
+		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:1-105:12
 		INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:2:11-69
@@ -76,7 +76,7 @@ ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\A
 	android:name
 		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:12:9-80
 application
-ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:15:5-99:19
+ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:15:5-103:19
 MERGED from [com.android.support:design:25.4.0] C:\Users\Emily the Destroyer\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\024ac325a6dfce13882458a59da8a2b9\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:25.4.0] C:\Users\Emily the Destroyer\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\024ac325a6dfce13882458a59da8a2b9\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Emily the Destroyer\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\46f89344fb748d2c00a69b26031f0be4\AndroidManifest.xml:25:5-29:19
@@ -314,9 +314,25 @@ ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\A
 	android:name
 		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:97:19-53
 activity#com.example.hackaz.MyAdapter
-ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:98:9-56
+ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:98:9-47
 	android:name
 		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:98:19-44
+activity#com.example.hackaz.events.EventTypeActivity
+ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:99:9-62
+	android:name
+		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:99:19-59
+activity#com.example.hackaz.events.EventDayActivity
+ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:100:9-61
+	android:name
+		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:100:19-58
+activity#com.example.hackaz.map.FloorActivity
+ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:101:9-55
+	android:name
+		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:101:19-52
+activity#com.example.hackaz.schedule.ScheduleDayActivity
+ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:102:9-75
+	android:name
+		ADDED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml:102:19-63
 uses-sdk
 INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Emily the Destroyer\Documents\gitrepos\HackAZ\app\src\main\AndroidManifest.xml

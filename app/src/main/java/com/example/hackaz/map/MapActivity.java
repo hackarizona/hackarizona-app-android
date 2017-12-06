@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -13,11 +12,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.example.hackaz.R;
-import com.example.hackaz.map.floors.Floor1Activity;
-import com.example.hackaz.map.floors.Floor2Activity;
-import com.example.hackaz.map.floors.Floor3Activity;
-import com.example.hackaz.map.floors.Floor4Activity;
-import com.example.hackaz.map.floors.Floor5Activity;
 
 import java.util.ArrayList;
 
@@ -63,7 +57,6 @@ public class MapActivity extends AppCompatActivity {
         mapView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.i("Info", position+"");
                 savePos = position;
                 navSubPage();
             }
@@ -71,25 +64,8 @@ public class MapActivity extends AppCompatActivity {
     }
 
     private void navSubPage(){
-       if(savePos == 0){
-            Intent intent = new Intent(this, Floor1Activity.class);
-            startActivity(intent);
-        }
-        else if(savePos == 1){
-            Intent intent = new Intent(this, Floor2Activity.class);
-            startActivity(intent);
-        }
-        else if(savePos == 2){
-            Intent intent = new Intent(this, Floor3Activity.class);
-            startActivity(intent);
-        }
-        else if(savePos == 3){
-            Intent intent = new Intent(this, Floor4Activity.class);
-            startActivity(intent);
-        }
-        else{
-            Intent intent = new Intent(this, Floor5Activity.class);
-            startActivity(intent);
-        }
+        Intent intent = new Intent(this, FloorActivity.class);
+        intent.putExtra("floor", savePos);
+        startActivity(intent);
     }
 }
