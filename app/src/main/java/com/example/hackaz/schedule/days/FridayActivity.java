@@ -34,7 +34,7 @@ public class FridayActivity extends Activity {
     private ArrayList<String> daySchedule;
     ListView scheduleView;
 
-    private class DownloadTask extends AsyncTask<String, Void, String> {
+    public class DownloadTask extends AsyncTask<String, Void, String> {
 
         @Override
         protected String doInBackground(String... urls) {

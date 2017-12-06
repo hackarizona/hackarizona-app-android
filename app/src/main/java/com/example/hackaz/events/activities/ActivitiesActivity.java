@@ -77,6 +77,5 @@ public class ActivitiesActivity extends AppCompatActivity {
             Intent intent = new Intent(this, Sun1Activity.class);
             startActivity(intent);
         }
-
     }
 }

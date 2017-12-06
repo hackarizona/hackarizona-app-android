@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -78,8 +77,7 @@ public class SocialMediaActivity extends Activity {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/hackarizona/"));
             startActivity(intent);
         } else if (savePos == 3) {
-            //TODO Snapchat
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.snapchat.com"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.snapchat.com//add/hackarizona"));
             startActivity(intent);
         }
     }

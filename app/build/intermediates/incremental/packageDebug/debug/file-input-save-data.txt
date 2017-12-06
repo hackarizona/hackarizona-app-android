@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Dec 05 11:30:54 MST 2017
+#Tue Dec 05 16:41:29 MST 2017
 2.base=C\:\\Users\\Emily the Destroyer\\Documents\\gitrepos\\HackAZ\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 5.set=DEX
 0.path=classes.dex

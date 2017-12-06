@@ -72,11 +72,11 @@ public class EventsActivity extends AppCompatActivity {
             Intent intent = new Intent(this, ActivitiesActivity.class);
             startActivity(intent);
         }
-        if(savePos == 1){
+        else if(savePos == 1){
             Intent intent = new Intent(this, FirstByteActivity.class);
             startActivity(intent);
         }
-        else{
+        else if(savePos == 2){
             Intent intent = new Intent(this, TechTalksActivity.class);
             startActivity(intent);
         }

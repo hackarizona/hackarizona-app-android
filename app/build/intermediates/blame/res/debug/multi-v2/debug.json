@@ -435,6 +435,21 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\Emily the Destroyer\\Documents\\gitrepos\\HackAZ\\app\\build\\intermediates\\res\\merged\\debug\\values-v24_values-v24.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\46f89344fb748d2c00a69b26031f0be4\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,212,347,416,480,549",
+                        "endColumns": "156,134,68,63,68,69",
+                        "endOffsets": "207,342,411,475,544,614"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Emily the Destroyer\\Documents\\gitrepos\\HackAZ\\app\\build\\intermediates\\res\\merged\\debug\\values-ru_values-ru.arsc.flat",
             "map": [
                 {
@@ -469,21 +484,6 @@
                         "startOffsets": "2084",
                         "endColumns": "215",
                         "endOffsets": "2295"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Emily the Destroyer\\Documents\\gitrepos\\HackAZ\\app\\build\\intermediates\\res\\merged\\debug\\values-v24_values-v24.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Emily the Destroyer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\46f89344fb748d2c00a69b26031f0be4\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,212,347,416,480,549",
-                        "endColumns": "156,134,68,63,68,69",
-                        "endOffsets": "207,342,411,475,544,614"
                     }
                 }
             ]

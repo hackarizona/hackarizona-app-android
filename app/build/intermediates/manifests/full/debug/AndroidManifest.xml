@@ -111,6 +111,8 @@
         <activity android:name="com.example.hackaz.events.techTalks.Fri3Activity" />
         <activity android:name="com.example.hackaz.events.techTalks.Sat3Activity" />
         <activity android:name="com.example.hackaz.events.techTalks.Sun3Activity" />
+        <activity android:name="com.example.hackaz.CustomListActivity" />
+        <activity android:name="com.example.hackaz.MyAdapter" />
 
         <meta-data
             android:name="android.support.VERSION"

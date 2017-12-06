@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -18,15 +17,20 @@ import com.example.hackaz.map.MapActivity;
 import com.example.hackaz.mentorhub.MentorActivity;
 import com.example.hackaz.schedule.ScheduleActivity;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.concurrent.ExecutionException;
 
 public class MainActivity extends Activity {
 
     ArrayList<String> pages;
     ListView listView;
     private int savePos;
-
-
+    private ArrayList<String> dataJSON;
+    private String livestreamLink;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +49,7 @@ public class MainActivity extends Activity {
         // Get ListView object from xml
         listView = (ListView) findViewById(R.id.list);
 
-        ArrayAdapter<String> adapter=new ArrayAdapter<String>(
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this, android.R.layout.simple_list_item_1, pages){
 
             @Override
@@ -54,7 +58,7 @@ public class MainActivity extends Activity {
 
                 TextView textView=(TextView) view.findViewById(android.R.id.text1);
 
-            /*YOUR CHOICE OF COLOR*/
+                /*YOUR CHOICE OF TEXT COLOR*/
                 textView.setTextColor(Color.WHITE);
                 textView.setTextSize(20);
                 return view;
@@ -65,11 +69,42 @@ public class MainActivity extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.i("Info", position+"");
                 savePos = position;
                 navSubPage();
             }
         });
+
+
+        addJSONContent();
+    }
+
+    private void addJSONContent() {
+        //set up the byte stream to receive the JSON
+        DownloadTask task = new DownloadTask();
+        String result = null;
+
+        try {
+            result = task.execute("http://hackarizona.org/livestream.json").get();
+        }
+        catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        catch (ExecutionException f) {
+            f.printStackTrace();
+        }
+        dataJSON = new ArrayList<>();
+
+        try {
+            JSONObject jsonObject = new JSONObject(result);
+            String urlInfo = jsonObject.getString("livestream");
+            JSONArray links = new JSONArray(urlInfo);
+
+            //get the link
+            JSONObject link = links.getJSONObject(0);
+            livestreamLink = link.getString("link");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 
     private void navSubPage(){
@@ -82,7 +117,7 @@ public class MainActivity extends Activity {
             startActivity(intent);
         }
         else if(savePos == 2){
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=YXtyd1rkbkI"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(livestreamLink));
             startActivity(intent);
         }
         else if(savePos == 3){
@@ -93,7 +128,7 @@ public class MainActivity extends Activity {
             Intent intent = new Intent(this, EventsActivity.class);
             startActivity(intent);
         }
-        else{
+        else if(savePos == 5){
             //TODO
             Intent intent = new Intent(this, MentorActivity.class);
             startActivity(intent);
