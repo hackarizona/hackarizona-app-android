@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hackaz">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <meta-data
@@ -37,7 +37,7 @@
         </activity>
         <activity
             android:name=".map.MapActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".mentorhub.LiveStreamActivity" />
         <activity android:name=".mentorhub.MentorActivity" />
         <activity
@@ -58,28 +58,48 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".map.floors.Floor2Activity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".map.floors.Floor3Activity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".map.floors.Floor4Activity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".map.floors.Floor5Activity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <service
-            android:name=".MyFirebaseInstanceIDService">
+
+        <service android:name=".MyFirebaseInstanceIDService">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-        <service
-            android:name=".MyFirebaseMessagingService">
+        <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name=".SocialMediaActivity" />
+        <activity android:name=".events.EventsActivity" />
+        <activity android:name=".events.activities.ActivitiesActivity" />
+        <activity android:name=".events.activities.Fri1Activity" />
+        <activity android:name=".events.activities.Sat1Activity" />
+        <activity android:name=".events.activities.Sun1Activity" />
+        <activity android:name=".events.firstByte.FirstByteActivity" />
+        <activity android:name=".events.firstByte.Fri2Activity" />
+        <activity android:name=".events.firstByte.Sat2Activity" />
+        <activity android:name=".events.firstByte.Sun2Activity" />
+        <activity android:name=".events.techTalks.TechTalksActivity" />
+        <activity android:name=".events.techTalks.Fri3Activity" />
+        <activity android:name=".events.techTalks.Sat3Activity" />
+        <activity android:name=".events.techTalks.Sun3Activity" />
+        <activity android:name=".CustomListActivity" />
+        <activity android:name=".MyAdapter" />
+        <activity android:name=".events.EventTypeActivity" />
+        <activity android:name=".events.EventDayActivity" />
+        <activity android:name=".map.FloorActivity" />
+        <activity android:name=".schedule.ScheduleDayActivity"></activity>
     </application>
 
 </manifest>

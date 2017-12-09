@@ -34,7 +34,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme.NoActionBar" >
         <activity android:name="com.example.hackaz.MainActivity" >
             <intent-filter>
@@ -96,6 +95,27 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name="com.example.hackaz.SocialMediaActivity" />
+        <activity android:name="com.example.hackaz.events.EventsActivity" />
+        <activity android:name="com.example.hackaz.events.activities.ActivitiesActivity" />
+        <activity android:name="com.example.hackaz.events.activities.Fri1Activity" />
+        <activity android:name="com.example.hackaz.events.activities.Sat1Activity" />
+        <activity android:name="com.example.hackaz.events.activities.Sun1Activity" />
+        <activity android:name="com.example.hackaz.events.firstByte.FirstByteActivity" />
+        <activity android:name="com.example.hackaz.events.firstByte.Fri2Activity" />
+        <activity android:name="com.example.hackaz.events.firstByte.Sat2Activity" />
+        <activity android:name="com.example.hackaz.events.firstByte.Sun2Activity" />
+        <activity android:name="com.example.hackaz.events.techTalks.TechTalksActivity" />
+        <activity android:name="com.example.hackaz.events.techTalks.Fri3Activity" />
+        <activity android:name="com.example.hackaz.events.techTalks.Sat3Activity" />
+        <activity android:name="com.example.hackaz.events.techTalks.Sun3Activity" />
+        <activity android:name="com.example.hackaz.CustomListActivity" />
+        <activity android:name="com.example.hackaz.MyAdapter" />
+        <activity android:name="com.example.hackaz.events.EventTypeActivity" />
+        <activity android:name="com.example.hackaz.events.EventDayActivity" />
+        <activity android:name="com.example.hackaz.map.FloorActivity" />
+        <activity android:name="com.example.hackaz.schedule.ScheduleDayActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

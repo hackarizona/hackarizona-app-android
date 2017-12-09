@@ -11,11 +11,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import com.example.hackaz.schedule.days.FridayActivity;
 import com.example.hackaz.R;
-import com.example.hackaz.schedule.days.SaturdayActivity;
-import com.example.hackaz.schedule.days.SundayActivity;
+
 
 import java.util.ArrayList;
 
@@ -68,17 +65,16 @@ public class ScheduleActivity extends AppCompatActivity {
     }
 
     private void navSubPage(){
+        Intent intent = new Intent(this, ScheduleDayActivity.class);
         if(savePos == 0){
-            Intent intent = new Intent(this, FridayActivity.class);
-            startActivity(intent);
+            intent.putExtra("day", "friday");
         }
         else if(savePos == 1){
-            Intent intent = new Intent(this, SaturdayActivity.class);
-            startActivity(intent);
+            intent.putExtra("day", "saturday");
         }
         else{
-            Intent intent = new Intent(this, SundayActivity.class);
-            startActivity(intent);
+            intent.putExtra("day", "sunday");
         }
+        startActivity(intent);
     }
 }
