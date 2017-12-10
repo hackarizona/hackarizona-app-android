@@ -42,7 +42,7 @@ public class ScheduleDayActivity extends AppCompatActivity {
         String result = null;
 
         try {
-            result = task.execute("http://hackarizona.org/2017/masterschedule2017.json").get();
+            result = task.execute("http://hackarizona.org/masterschedule.json").get();
         }
         catch (InterruptedException e) {
             e.printStackTrace();

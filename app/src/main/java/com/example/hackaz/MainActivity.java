@@ -3,12 +3,14 @@ package com.example.hackaz;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -27,10 +29,19 @@ import java.util.concurrent.ExecutionException;
 public class MainActivity extends Activity {
 
     ArrayList<String> pages;
-    ListView listView;
+
+    ImageButton scheduleButton;
+    ImageButton socialMediaButton;
+    ImageButton mapButton;
+    ImageButton eventsButton;
+    ImageButton mentorHubButton;
+    ImageButton livestreamButton;
+
+
     private int savePos;
     private ArrayList<String> dataJSON;
     private String livestreamLink;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,30 +57,59 @@ public class MainActivity extends Activity {
         pages.add("Events");
         pages.add("Mentor Hub");
 
-        // Get ListView object from xml
-        listView = (ListView) findViewById(R.id.list);
+        // map buttons to the buttons in XML
+        scheduleButton = (ImageButton) findViewById(R.id.imageButton);
+        livestreamButton = (ImageButton) findViewById(R.id.imageButton2);
+        mapButton = (ImageButton) findViewById(R.id.imageButton3);
+        mentorHubButton = (ImageButton) findViewById(R.id.imageButton4);
+        eventsButton = (ImageButton) findViewById(R.id.imageButton5);
+        socialMediaButton = (ImageButton) findViewById(R.id.imageButton6);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-                this, android.R.layout.simple_list_item_1, pages){
 
+        scheduleButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public View getView(int position, View convertView, ViewGroup parent) {
-                View view =super.getView(position, convertView, parent);
-
-                TextView textView=(TextView) view.findViewById(android.R.id.text1);
-
-                /*YOUR CHOICE OF TEXT COLOR*/
-                textView.setTextColor(Color.WHITE);
-                textView.setTextSize(20);
-                return view;
+            public void onClick(View v) {
+                savePos = 0;
+                navSubPage();
             }
-        };
-        listView.setAdapter(adapter);
+        });
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mapButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                savePos = position;
+            public void onClick(View v) {
+                savePos = 1;
+                navSubPage();
+            }
+        });
+
+        livestreamButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                savePos = 2;
+                navSubPage();
+            }
+        });
+
+        socialMediaButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                savePos = 3;
+                navSubPage();
+            }
+        });
+
+        eventsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                savePos = 4;
+                navSubPage();
+            }
+        });
+
+        mentorHubButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                savePos = 5;
                 navSubPage();
             }
         });

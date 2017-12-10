@@ -2,8 +2,8 @@
 <android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/bg_gradient"
     android:visibility="visible"
     tools:context="com.example.hackaz.MainActivity">
@@ -18,23 +18,13 @@
         android:adjustViewBounds="true"
         android:contentDescription="HackAZ logo"
         android:scaleType="matrix"
-        android:src="@drawable/unnamed"
+        android:src="@drawable/hackaz_icon2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
-
-    <ListView
-        android:id="@+id/list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"></ListView>
 
     <TextView
         android:id="@+id/text"
@@ -45,5 +35,162 @@
         tools:ignore="HardcodedText"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="45dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/schedule_button"
+        android:src="@drawable/schedule_icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="43dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/livestream_button"
+        android:src="@drawable/live_stream" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_alignTop="@+id/imageButton"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/map_button"
+        android:src="@drawable/map_icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_alignTop="@+id/imageButton2"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/mentor_hub_button"
+        android:src="@drawable/mentor_hub" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="37dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/events_button"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/social_media_button"
+        android:src="@drawable/social_media" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/hack_arizona_string"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginStart="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/schedule_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginStart="32dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/livestream_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton6"
+        android:layout_below="@+id/imageButton6"
+        android:layout_marginStart="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/socialmedia_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginStart="55dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/map_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginStart="35dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/mentorhub_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_below="@+id/imageButton5"
+        android:layout_marginStart="45dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/events_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
 
 </android.widget.RelativeLayout>
