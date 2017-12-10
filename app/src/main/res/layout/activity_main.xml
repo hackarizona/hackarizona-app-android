@@ -40,10 +40,11 @@
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_alignStart="@+id/imageButton2"
         android:layout_below="@+id/imageView"
-        android:layout_marginTop="23dp"
-        android:background="@drawable/bg_gradient"
+        android:layout_marginTop="45dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/schedule_button"
         android:src="@drawable/schedule_icon" />
 
     <ImageButton
@@ -52,48 +53,145 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageButton"
-        android:background="@drawable/bg_gradient"
+        android:layout_marginTop="43dp"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/livestream_button"
         android:src="@drawable/live_stream" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageButton2"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/bg_gradient"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_marginStart="213dp"
+        android:layout_toEndOf="@+id/text"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/map_button"
         android:src="@drawable/map_icon" />
 
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageButton3"
-        android:background="@drawable/bg_gradient"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_alignTop="@+id/imageButton2"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/mentor_hub_button"
         android:src="@drawable/mentor_hub" />
 
     <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
         android:layout_below="@+id/imageButton4"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="9dp"
-        android:background="@drawable/bg_gradient"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="37dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/events_button"
         android:src="@drawable/logo" />
 
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageButton4"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="36dp"
-        android:layout_marginStart="81dp"
-        android:background="@drawable/bg_gradient"
+        android:layout_alignTop="@+id/imageButton5"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/social_media_button"
         android:src="@drawable/social_media" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/hack_arizona_string"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/schedule_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_marginStart="32dp"
+        android:layout_below="@+id/imageButton2"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/livestream_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton6"
+        android:layout_below="@+id/imageButton6"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/socialmedia_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginStart="55dp"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/map_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginStart="35dp"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/mentorhub_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_below="@+id/imageButton5"
+        android:layout_marginStart="45dp"
+        android:fontFamily="@font/quicksand"
+        android:text="@string/events_string"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
 
 </android.widget.RelativeLayout>

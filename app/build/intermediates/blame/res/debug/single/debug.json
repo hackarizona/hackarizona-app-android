@@ -340,6 +340,10 @@
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\822e3f2a6e54c45808d0892b3419ea51\\res\\anim\\abc_fade_out.xml"
     },
     {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\font_quicksand_bold.xml.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\font\\quicksand_bold.xml"
+    },
+    {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\822e3f2a6e54c45808d0892b3419ea51\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -838,6 +842,10 @@
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_dot.png.flat",
         "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\drawable\\red_dot.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\font_quicksand.xml.flat",
+        "source": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\src\\main\\res\\font\\quicksand.xml"
     },
     {
         "merged": "C:\\Users\\Joe Kimbuende\\Documents\\CSC 436\\hack_az\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",

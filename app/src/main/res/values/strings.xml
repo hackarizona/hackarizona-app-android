@@ -9,4 +9,17 @@
     <string name="hack_arizona">Hack Arizona</string>
     <string name="hackazlogo">Hack Arizona Logo</string>
     <string name="heart">heart</string>
+    <string name="schedule_button">Schedule Button</string>
+    <string name="livestream_button">Livestream Button</string>
+    <string name="map_button">Map Button</string>
+    <string name="mentor_hub_button">Mentor Hub Button</string>
+    <string name="events_button">Events Button</string>
+    <string name="social_media_button">Social Media Button</string>
+    <string name="hack_arizona_string">HACK ARIZONA</string>
+    <string name="schedule_string">Schedule</string>
+    <string name="map_string">Map</string>
+    <string name="events_string">Events</string>
+    <string name="mentorhub_string">Mentor Hub</string>
+    <string name="socialmedia_string">Social Media</string>
+    <string name="livestream_string">Live Stream</string>
 </resources>

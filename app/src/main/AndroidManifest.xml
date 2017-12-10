@@ -100,6 +100,10 @@
         <activity android:name=".events.EventDayActivity" />
         <activity android:name=".map.FloorActivity" />
         <activity android:name=".schedule.ScheduleDayActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
