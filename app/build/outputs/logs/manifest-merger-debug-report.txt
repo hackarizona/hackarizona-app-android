@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-109:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-109:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-109:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-109:12
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-106:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-106:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-106:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-106:12
 MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\822e3f2a6e54c45808d0892b3419ea51\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\ececd3856e8252295dbfa3d2258ef494\AndroidManifest.xml:2:1-11:12
@@ -26,20 +26,20 @@ MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Joe Kimbuen
 MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\fad69166af0fc5c9a406ab6e4657b185\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\baa2d26c6a1381e5735a8182110c82ea\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\35b90279042cfcc898a99aa6c59b8a19\AndroidManifest.xml:17:1-31:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-109:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-109:12
-INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-109:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-106:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-106:12
+INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-106:12
 	package
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-109:12
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-106:12
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-109:12
+		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:1-106:12
 		INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:2:11-69
@@ -76,7 +76,7 @@ ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\Android
 	android:name
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:12:9-80
 application
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:15:5-107:19
+ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:15:5-104:19
 MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\design-25.4.0.aar\2312aace4e1d09d1c58ee052674f7d3d\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Joe Kimbuende\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\822e3f2a6e54c45808d0892b3419ea51\AndroidManifest.xml:25:5-29:19
@@ -333,12 +333,6 @@ activity#com.example.hackaz.schedule.ScheduleDayActivity
 ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:102:9-75
 	android:name
 		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:102:19-63
-meta-data#preloaded_fonts
-ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:104:9-106:57
-	android:resource
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:106:13-54
-	android:name
-		ADDED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml:105:13-43
 uses-sdk
 INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Joe Kimbuende\Documents\CSC 436\hack_az\app\src\main\AndroidManifest.xml
