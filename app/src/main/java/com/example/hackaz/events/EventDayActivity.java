@@ -25,6 +25,8 @@ import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 import com.example.hackaz.DownloadTask;
 
+import static com.example.hackaz.R.layout.popup;
+
 public class EventDayActivity extends AppCompatActivity {
 
     private String url;
@@ -82,7 +84,7 @@ public class EventDayActivity extends AppCompatActivity {
                 //accounting for the different formats of json files
                 if(url.equals("http://hackarizona.org/activities.json")){
 
-                    eventList.add("\n" + event.getString("activity") + " "
+                    eventList.add("\n"  + event.getString("activity") + " "
                             +"\n" +
                             event.getString("time") + " - "
                             + event.getString("location") + "\n" );
@@ -145,22 +147,26 @@ public class EventDayActivity extends AppCompatActivity {
         scheduleView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.i("description", eventObjectData.get(position).getDescription());
+                //Log.i("description", eventObjectData.get(position).getDescription());
 
                 LayoutInflater layoutInflater
                         = (LayoutInflater)getBaseContext()
                         .getSystemService(LAYOUT_INFLATER_SERVICE);
-                View popupView = layoutInflater.inflate(R.layout.popup, null);
+                View popupView = layoutInflater.inflate(popup, null);
 
-                //set text
-                TextView tv = (TextView)findViewById(R.id.popupTextView);
-                tv.setText("Description " + eventObjectData.get(position).getDescription());
+
+
+                Log.i("content", popupView.getContext().toString()+"");
 
                 final PopupWindow popupWindow = new PopupWindow(
                         popupView,
                         ViewGroup.LayoutParams.WRAP_CONTENT,
                         ViewGroup.LayoutParams.WRAP_CONTENT);
 
+                TextView textView = (TextView) popupWindow.getContentView().
+                        findViewById(R.id.popupTextView);
+                textView.setText("Description: \n" + eventObjectData.get(position).getDescription());
+                textView.setTextSize(15);
 
                 Button btnDismiss = (Button)popupView.findViewById(R.id.dismiss);
                 btnDismiss.setOnClickListener(new Button.OnClickListener(){
@@ -170,7 +176,7 @@ public class EventDayActivity extends AppCompatActivity {
                         popupWindow.dismiss();
                     }});
 
-                popupWindow.showAsDropDown(scheduleView, 200, -1200);
+                popupWindow.showAsDropDown(scheduleView, 150, -1200);
 
             }});
 

@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_margin="1dp"
-        android:background="@android:color/darker_gray">
+        android:background="@android:color/white">
         >
         <LinearLayout
             android:layout_width="wrap_content"
@@ -21,10 +21,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="It's a PopupWindow" />
-            <!-- <ImageView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_launcher" /> -->
             <Button
                 android:id="@+id/dismiss"
                 android:layout_width="fill_parent"

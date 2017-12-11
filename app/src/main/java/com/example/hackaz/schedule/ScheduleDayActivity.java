@@ -75,6 +75,26 @@ public class ScheduleDayActivity extends AppCompatActivity {
             for (int i = 0; i < events.length(); i++){
                 JSONObject event = events.getJSONObject(i);
 
+                //5 event types
+                /*
+                 * required: saguaro 0x1F335
+                 * activity: running 0x1F3C3
+                 * techtalk: light 0x1F4A1
+                 * firstbyte: computer 0x1F4BB
+                 * food: taco 0x1F32E
+                 */
+                String eventType = event.getString("eventtype");
+                if(eventType.equals("required"))
+                    unicode = 0x1F335;
+                else if (eventType.equals("activity"))
+                    unicode = 0x1F3C3;
+                else if (eventType.equals("techtalk"))
+                    unicode = 0x1F4A1;
+                else if (eventType.equals("firstbyte"))
+                    unicode = 0x1F4BB;
+                else
+                    unicode = 0x1F32E;
+
                 daySchedule.add(getEmojiByUnicode(unicode) + " " + event.getString("eventtitle") + " " + event.getString("subtitle") + "\n" +
                         event.getString("time") + " - " + event.getString("location") + "\n" );
             }

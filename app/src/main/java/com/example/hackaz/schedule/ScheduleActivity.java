@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -16,6 +17,8 @@ import com.example.hackaz.R;
 
 
 import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class ScheduleActivity extends AppCompatActivity {
 
@@ -56,6 +59,7 @@ public class ScheduleActivity extends AppCompatActivity {
         };
         scheduleView.setAdapter(adapter);
 
+        //navigate to a subpage
         scheduleView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -79,12 +83,18 @@ public class ScheduleActivity extends AppCompatActivity {
             intent.putExtra("day", "sunday");
         }
         startActivity(intent);
-        /*dialog = new ProgressDialog(this);
+
+        //show a dialog to indicate the page is loading
+        dialog = new ProgressDialog(this);
         dialog.setMessage("Loading...");
-        dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
         dialog.setIndeterminate(true);
-        dialog.setProgress(0);
-        dialog.show();*/
+        dialog.show();
+
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        dialog.hide();
+    }
 }
