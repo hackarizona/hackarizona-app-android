@@ -70,55 +70,53 @@ public class EventDayActivity extends AppCompatActivity {
         eventList = new ArrayList<>();
 
         try {
-
             JSONObject jsonObject = new JSONObject(result);
-
             String dayInfo = jsonObject.getString(day);
-
             JSONArray events = new JSONArray(dayInfo);
 
-            //add each events info to the schedule
+            //add each event's info to the schedule
             for (int i = 0; i < events.length(); i++){
                 JSONObject event = events.getJSONObject(i);
 
+                String eventName = "";
+                String sponsorName = "";
+                String time = event.getString("time");
+                String location = event.getString("location");
+                String description = event.getString("description");
+
                 //accounting for the different formats of json files
                 if(url.equals("http://hackarizona.org/activities.json")){
+                    eventName = event.getString("activity");
 
-                    eventList.add("\n"  + event.getString("activity") + " "
-                            +"\n" +
-                            event.getString("time") + " - "
-                            + event.getString("location") + "\n" );
-
+                    //add display info
+                    eventList.add("\n"  + eventName + " "
+                            +"\n" + time + " - " + location + "\n" );
                 }
                 else if(url.equals("http://hackarizona.org/firstbyte.json")){
+                    eventName = event.getString("workshop");
 
-                    Event currEvent = new Event(event.getString("workshop"),
-                            "",event.getString("time"),
-                            event.getString("location"), event.getString("description"));
-
-                    //name, time, location
-                    eventList.add("\n" + currEvent.getName()+ " "
-                            +"\n" + currEvent.getTime() + " - "
-                            + currEvent.getLocation() + "\n" );
-                    eventObjectData.add(currEvent);
-
-                    //decsription
-                    //eventDayData.add("Description: " + currEvent.getDescription() + "\n");
-
+                    eventList.add("\n"  + eventName + " "
+                            +"\n" + time + " - " + location + "\n" );
                 }
                 else if(url.equals("http://hackarizona.org/techtalks.json")){
+                    eventName = event.getString("talk");
+                    sponsorName = event.getString("sponsor");
 
-                    eventList.add("\n" + event.getString("sponsor") + " "
-                            + event.getString("talk") + "\n" +
-                            event.getString("time") + " - "
-                            + event.getString("location") + "\n" );
+                    eventList.add("\n" + sponsorName + " "
+                            + eventName+ "\n" + time + " - "
+                            + location + "\n" );
                 }
+
+                //add current data object with all fields,
+                // even if only "" populated
+                Event currEvent = new Event(eventName, sponsorName,
+                        time, location, description);
+                eventObjectData.add(currEvent);
             }
         }
         catch (JSONException e){
             e.printStackTrace();
         }
-
     }
 
     //adds the list view and json listview content
@@ -147,16 +145,10 @@ public class EventDayActivity extends AppCompatActivity {
         scheduleView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //Log.i("description", eventObjectData.get(position).getDescription());
-
                 LayoutInflater layoutInflater
                         = (LayoutInflater)getBaseContext()
                         .getSystemService(LAYOUT_INFLATER_SERVICE);
                 View popupView = layoutInflater.inflate(popup, null);
-
-
-
-                Log.i("content", popupView.getContext().toString()+"");
 
                 final PopupWindow popupWindow = new PopupWindow(
                         popupView,

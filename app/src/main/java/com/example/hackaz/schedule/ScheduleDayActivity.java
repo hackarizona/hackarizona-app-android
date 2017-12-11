@@ -5,10 +5,12 @@ import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
@@ -23,22 +25,26 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
+import static com.example.hackaz.R.layout.popup;
+
 public class ScheduleDayActivity extends AppCompatActivity {
     private String day;
-    private ArrayList<String> daySchedule;
+    private ArrayList<String> scheduleList;
     ListView scheduleView;
+    private ArrayList<ScheduleEvent> scheduleObjectData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_day);
+        scheduleObjectData = new ArrayList<ScheduleEvent>();
 
 
+        //preparing data for sub activity
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             day = extras.getString("day");
             //The key argument here must match that used in the other activity
-            Log.i("day", day);
         }
 
 
@@ -61,7 +67,7 @@ public class ScheduleDayActivity extends AppCompatActivity {
     }
 
     private void addJSONContent(String result) {
-        daySchedule = new ArrayList<>();
+        scheduleList = new ArrayList<>();
         int unicode = 0x1F61C;
 
         try {
@@ -75,6 +81,12 @@ public class ScheduleDayActivity extends AppCompatActivity {
             for (int i = 0; i < events.length(); i++){
                 JSONObject event = events.getJSONObject(i);
 
+                String eventName = event.getString("eventtitle");
+                String eventType = event.getString("eventtype");
+                String time = event.getString("time");
+                String location = event.getString("location");
+                String description = event.getString("description");
+
                 //5 event types
                 /*
                  * required: saguaro 0x1F335
@@ -83,7 +95,7 @@ public class ScheduleDayActivity extends AppCompatActivity {
                  * firstbyte: computer 0x1F4BB
                  * food: taco 0x1F32E
                  */
-                String eventType = event.getString("eventtype");
+
                 if(eventType.equals("required"))
                     unicode = 0x1F335;
                 else if (eventType.equals("activity"))
@@ -95,8 +107,11 @@ public class ScheduleDayActivity extends AppCompatActivity {
                 else
                     unicode = 0x1F32E;
 
-                daySchedule.add(getEmojiByUnicode(unicode) + " " + event.getString("eventtitle") + " " + event.getString("subtitle") + "\n" +
-                        event.getString("time") + " - " + event.getString("location") + "\n" );
+                scheduleList.add(getEmojiByUnicode(unicode) + " " + eventName + " " + "\n" +
+                        time + " - " + location + "\n" );
+                ScheduleEvent currEvent = new ScheduleEvent(eventName, eventType, time, location, description);
+                scheduleObjectData.add(currEvent);
+
             }
         }
         catch (JSONException e){
@@ -111,7 +126,7 @@ public class ScheduleDayActivity extends AppCompatActivity {
         scheduleView = (ListView) findViewById(R.id.schedule_day_list);
 
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(
-                this, android.R.layout.simple_list_item_1, daySchedule){
+                this, android.R.layout.simple_list_item_1, scheduleList){
 
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
@@ -126,8 +141,40 @@ public class ScheduleDayActivity extends AppCompatActivity {
             }
         };
 
+        //sets up listener for description popup
         scheduleView.setAdapter(adapter);
+        scheduleView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                LayoutInflater layoutInflater
+                        = (LayoutInflater)getBaseContext()
+                        .getSystemService(LAYOUT_INFLATER_SERVICE);
+                View popupView = layoutInflater.inflate(popup, null);
+
+                final PopupWindow popupWindow = new PopupWindow(
+                        popupView,
+                        ViewGroup.LayoutParams.WRAP_CONTENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT);
+
+                TextView textView = (TextView) popupWindow.getContentView().
+                        findViewById(R.id.popupTextView);
+                textView.setText("Description: \n" + scheduleObjectData.get(position).getDescription());
+                textView.setTextSize(15);
+
+                Button btnDismiss = (Button)popupView.findViewById(R.id.dismiss);
+                btnDismiss.setOnClickListener(new Button.OnClickListener(){
+
+                    @Override
+                    public void onClick(View v) {
+                        popupWindow.dismiss();
+                    }});
+
+                popupWindow.showAsDropDown(scheduleView, 150, -1200);
+
+            }});
+
     }
+
 
     public String getEmojiByUnicode(int unicode){
         return new String(Character.toChars(unicode));
