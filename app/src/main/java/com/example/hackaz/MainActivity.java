@@ -2,21 +2,13 @@ package com.example.hackaz;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
-import android.widget.ListView;
-import android.widget.TextView;
 
 import com.example.hackaz.events.EventsActivity;
 import com.example.hackaz.map.MapActivity;
-import com.example.hackaz.mentorhub.MentorActivity;
 import com.example.hackaz.schedule.ScheduleActivity;
 
 import org.json.JSONArray;
@@ -39,8 +31,8 @@ public class MainActivity extends Activity {
 
 
     private int savePos;
-    private ArrayList<String> dataJSON;
     private String livestreamLink;
+    private String mentorHubLink;
 
 
     @Override
@@ -58,12 +50,12 @@ public class MainActivity extends Activity {
         pages.add("Mentor Hub");
 
         // map buttons to the buttons in XML
-        scheduleButton = (ImageButton) findViewById(R.id.imageButton);
-        livestreamButton = (ImageButton) findViewById(R.id.imageButton2);
-        mapButton = (ImageButton) findViewById(R.id.imageButton3);
-        mentorHubButton = (ImageButton) findViewById(R.id.imageButton4);
-        eventsButton = (ImageButton) findViewById(R.id.imageButton5);
-        socialMediaButton = (ImageButton) findViewById(R.id.imageButton6);
+        scheduleButton = (ImageButton) findViewById(R.id.scheduleButton);
+        livestreamButton = (ImageButton) findViewById(R.id.livestreamButton);
+        mapButton = (ImageButton) findViewById(R.id.mapButton);
+        mentorHubButton = (ImageButton) findViewById(R.id.mentorHubButton);
+        eventsButton = (ImageButton) findViewById(R.id.eventsButton);
+        socialMediaButton = (ImageButton) findViewById(R.id.socialMediaButton);
 
 
         scheduleButton.setOnClickListener(new View.OnClickListener() {
@@ -115,16 +107,17 @@ public class MainActivity extends Activity {
         });
 
 
-        addJSONContent();
+        addJSONContent("livestream","http://hackarizona.org/livestream.json");
+        addJSONContent("mentorhub","http://hackarizona.org/mentorhub.json");
     }
 
-    private void addJSONContent() {
+    private void addJSONContent(String name, String url) {
         //set up the byte stream to receive the JSON
         DownloadTask task = new DownloadTask();
-        String result = null;
+        String resultLivestream = null;
 
         try {
-            result = task.execute("http://hackarizona.org/livestream.json").get();
+            resultLivestream = task.execute(url).get();
         }
         catch (InterruptedException e) {
             e.printStackTrace();
@@ -132,16 +125,18 @@ public class MainActivity extends Activity {
         catch (ExecutionException f) {
             f.printStackTrace();
         }
-        dataJSON = new ArrayList<>();
-
         try {
-            JSONObject jsonObject = new JSONObject(result);
-            String urlInfo = jsonObject.getString("livestream");
-            JSONArray links = new JSONArray(urlInfo);
+            JSONObject jsonObject_ls = new JSONObject(resultLivestream);
+            String urlInfo_ls = jsonObject_ls.getString(name);
+            JSONArray links_ls = new JSONArray(urlInfo_ls);
 
             //get the link
-            JSONObject link = links.getJSONObject(0);
-            livestreamLink = link.getString("link");
+            JSONObject link = links_ls.getJSONObject(0);
+            if(name.equals("livestream"))
+                livestreamLink = link.getString("link");
+            else
+                mentorHubLink = link.getString("link");
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -169,8 +164,7 @@ public class MainActivity extends Activity {
             startActivity(intent);
         }
         else if(savePos == 5){
-            //TODO
-            Intent intent = new Intent(this, MentorActivity.class);
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(mentorHubLink));
             startActivity(intent);
         }
     }

@@ -30,9 +30,9 @@ public class EventsActivity extends AppCompatActivity {
 
         savePos = 0;
         daySchedule = new ArrayList<>();
-        daySchedule.add("Activities");
-        daySchedule.add("First Byte");
-        daySchedule.add("Tech Talks");
+        daySchedule.add(getEmojiByUnicode(0x1F3C3)+" Activities");
+        daySchedule.add(getEmojiByUnicode(0x1F4BB)+" First Byte");
+        daySchedule.add(getEmojiByUnicode(0x1F4A1)+" Tech Talks");
 
         // Get ListView object from xml
         scheduleView = (ListView) findViewById(R.id.eventsList);
@@ -76,5 +76,9 @@ public class EventsActivity extends AppCompatActivity {
             intent.putExtra("url", "http://hackarizona.org/techtalks.json");
         }
         startActivity(intent);
+    }
+
+    public String getEmojiByUnicode(int unicode){
+        return new String(Character.toChars(unicode));
     }
 }
