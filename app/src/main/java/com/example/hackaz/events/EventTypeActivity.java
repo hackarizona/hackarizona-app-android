@@ -87,7 +87,4 @@ public class EventTypeActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
-
-
-
 }

@@ -1,5 +1,6 @@
 package com.example.hackaz.schedule;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -21,6 +22,7 @@ public class ScheduleActivity extends AppCompatActivity {
     private ArrayList<String> daySchedule;
     ListView scheduleView;
     private int savePos;
+    ProgressDialog dialog;
 
 
     @Override
@@ -66,6 +68,7 @@ public class ScheduleActivity extends AppCompatActivity {
 
     private void navSubPage(){
         Intent intent = new Intent(this, ScheduleDayActivity.class);
+
         if(savePos == 0){
             intent.putExtra("day", "friday");
         }
@@ -76,5 +79,12 @@ public class ScheduleActivity extends AppCompatActivity {
             intent.putExtra("day", "sunday");
         }
         startActivity(intent);
+        /*dialog = new ProgressDialog(this);
+        dialog.setMessage("Loading...");
+        dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        dialog.setIndeterminate(true);
+        dialog.setProgress(0);
+        dialog.show();*/
     }
+
 }

@@ -1,13 +1,16 @@
 package com.example.hackaz.schedule;
 
+import android.app.ProgressDialog;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import com.example.hackaz.DownloadTask;
@@ -29,6 +32,7 @@ public class ScheduleDayActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_day);
+
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
@@ -58,6 +62,7 @@ public class ScheduleDayActivity extends AppCompatActivity {
 
     private void addJSONContent(String result) {
         daySchedule = new ArrayList<>();
+        int unicode = 0x1F61C;
 
         try {
             JSONObject jsonObject = new JSONObject(result);
@@ -70,7 +75,7 @@ public class ScheduleDayActivity extends AppCompatActivity {
             for (int i = 0; i < events.length(); i++){
                 JSONObject event = events.getJSONObject(i);
 
-                daySchedule.add("\n" + event.getString("eventtitle") + " " + event.getString("subtitle") + "\n" +
+                daySchedule.add(getEmojiByUnicode(unicode) + " " + event.getString("eventtitle") + " " + event.getString("subtitle") + "\n" +
                         event.getString("time") + " - " + event.getString("location") + "\n" );
             }
         }
@@ -100,6 +105,11 @@ public class ScheduleDayActivity extends AppCompatActivity {
                 return view;
             }
         };
+
         scheduleView.setAdapter(adapter);
+    }
+
+    public String getEmojiByUnicode(int unicode){
+        return new String(Character.toChars(unicode));
     }
 }
