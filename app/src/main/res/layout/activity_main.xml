@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/hackAZTextView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="20dp"
         android:columnCount="2"
         android:rowCount="3">
 
