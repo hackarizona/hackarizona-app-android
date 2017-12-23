@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "815407642470",
+    "firebase_url": "https://hack-arizona-c91d1.firebaseio.com",
+    "project_id": "hack-arizona-c91d1",
+    "storage_bucket": "hack-arizona-c91d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815407642470:android:e8b0f97d47aaa9b3",
+        "android_client_info": {
+          "package_name": "com.example.hackaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815407642470-ehckp65qemeg60h9mbcep1u90iogkhj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKUnUOT1POrHRYfkhqpG9IySyKFD0Kyh4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
