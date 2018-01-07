@@ -1,9 +1,10 @@
-package com.example.hackaz.events;
+package com.hackarizona.hackaz.schedule;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,42 +12,35 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import com.example.hackaz.R;
+import com.hackarizona.hackaz.R;
 
 
 import java.util.ArrayList;
 
-public class EventTypeActivity extends AppCompatActivity {
-    private String url;
+public class ScheduleActivity extends AppCompatActivity {
 
-    private ArrayList<String> dayOptions;
+    private ArrayList<String> daySchedule;
     ListView scheduleView;
     private int savePos;
+    ProgressDialog dialog;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event_type);
-
-        Bundle extras = getIntent().getExtras();
-        if (extras != null) {
-            url = extras.getString("url");
-            //The key argument here must match that used in the other activity
-            Log.i("url", url);
-        }
+        setContentView(R.layout.activity_schedule);
 
         savePos = 0;
-        dayOptions = new ArrayList<>();
-        dayOptions.add("Friday");
-        dayOptions.add("Saturday");
-        dayOptions.add("Sunday");
+        daySchedule = new ArrayList<>();
+        daySchedule.add("Friday");
+        daySchedule.add("Saturday");
+        daySchedule.add("Sunday");
 
         // Get ListView object from xml
-        scheduleView = (ListView) findViewById(R.id.event_type_list);
+        scheduleView = (ListView) findViewById(R.id.scheduleList);
 
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(
-                this, android.R.layout.simple_list_item_1, dayOptions){
+                this, android.R.layout.simple_list_item_1, daySchedule){
 
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
@@ -62,6 +56,7 @@ public class EventTypeActivity extends AppCompatActivity {
         };
         scheduleView.setAdapter(adapter);
 
+        //navigate to a subpage
         scheduleView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -73,8 +68,8 @@ public class EventTypeActivity extends AppCompatActivity {
     }
 
     private void navSubPage(){
-        Intent intent = new Intent(this, EventDayActivity.class);
-        intent.putExtra("url", url);
+        Intent intent = new Intent(this, ScheduleDayActivity.class);
+
         if(savePos == 0){
             intent.putExtra("day", "friday");
         }
@@ -86,5 +81,17 @@ public class EventTypeActivity extends AppCompatActivity {
         }
         startActivity(intent);
 
+        //show a dialog to indicate the page is loading
+        dialog = new ProgressDialog(this);
+        dialog.setMessage("Loading...");
+        dialog.setIndeterminate(true);
+        dialog.show();
+
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        dialog.hide();
     }
 }

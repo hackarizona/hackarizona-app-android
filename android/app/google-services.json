@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:815407642470:android:e8b0f97d47aaa9b3",
+        "mobilesdk_app_id": "1:815407642470:android:bf3e1aa0e83a789d",
         "android_client_info": {
-          "package_name": "com.example.hackaz"
+          "package_name": "com.hackarizona.hackaz"
         }
       },
       "oauth_client": [

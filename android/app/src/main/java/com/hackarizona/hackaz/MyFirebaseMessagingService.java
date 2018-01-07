@@ -1,18 +1,11 @@
-package com.example.hackaz;
+package com.hackarizona.hackaz;
 
 import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.app.TaskStackBuilder;
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.Color;
 import android.support.v4.app.NotificationCompat;
-import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-
-import static android.content.ContentValues.TAG;
 
 /**
  * Created by Emily the Destroyer on 11/11/2017.

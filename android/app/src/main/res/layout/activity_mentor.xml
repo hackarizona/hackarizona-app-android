@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hackaz.mentorhub.MentorActivity"
+    tools:context="com.hackarizona.hackaz.mentorhub.MentorActivity"
     android:background="@drawable/bg_gradient">
 
 </android.widget.RelativeLayout>

@@ -1,4 +1,4 @@
-package com.example.hackaz.schedule;
+package com.hackarizona.hackaz.schedule;
 
 /**
  * Created by Emily on 12/10/2017.

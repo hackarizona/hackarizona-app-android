@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hackaz.map.FloorActivity">
+    tools:context="com.hackarizona.hackaz.map.FloorActivity">
 
-    <com.example.hackaz.TouchImageView
+    <com.hackarizona.hackaz.TouchImageView
         android:id="@+id/floorImageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

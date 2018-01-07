@@ -1,10 +1,8 @@
-package com.example.hackaz.schedule;
+package com.hackarizona.hackaz.schedule;
 
-import android.app.ProgressDialog;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,8 +13,8 @@ import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.example.hackaz.DownloadTask;
-import com.example.hackaz.R;
+import com.hackarizona.hackaz.DownloadTask;
+import com.hackarizona.hackaz.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -25,7 +23,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
-import static com.example.hackaz.R.layout.popup;
+import static com.hackarizona.hackaz.R.layout.popup;
 
 public class ScheduleDayActivity extends AppCompatActivity {
     private String day;

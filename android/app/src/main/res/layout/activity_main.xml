@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_gradient"
     android:visibility="visible"
-    tools:context="com.example.hackaz.MainActivity">
+    tools:context="com.hackarizona.hackaz.MainActivity">
 
     <GridLayout
         android:id="@+id/grid"
