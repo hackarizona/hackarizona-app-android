@@ -28,11 +28,11 @@ public class MapActivity extends AppCompatActivity {
 
         savePos = 0;
         floors = new ArrayList<>();
-        floors.add("Level 1");
-        floors.add("Level 2");
-        floors.add("Level 3");
-        floors.add("Level 4");
-        floors.add("Level 5");
+        floors.add("BASEMENT");
+        floors.add("MAIN FLOOR");
+        floors.add("FLOOR 3");
+        floors.add("RAYTHEON FLOOR");
+        floors.add("JACOBS FLOOR");
 
         // Get ListView object from xml
         mapView = (ListView) findViewById(R.id.floorList);
