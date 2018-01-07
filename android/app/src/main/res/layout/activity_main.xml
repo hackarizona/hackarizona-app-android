@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_gradient"
+    android:background="@android:color/black"
     android:visibility="visible"
     tools:context="com.hackarizona.hackaz.MainActivity">
 
@@ -18,23 +18,25 @@
         android:columnCount="2"
         android:rowCount="3">
 
-
+        <!--Schedule Button here-->
         <ImageButton
             android:id="@+id/scheduleButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:contentDescription="@string/schedule_button"
-            android:src="@drawable/schedule_icon" />
+            android:src="@drawable/g_schedule_icon" />
 
+        <!--Events Button here-->
         <ImageButton
-            android:id="@+id/mapButton"
+            android:id="@+id/eventsButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:contentDescription="@string/map_button"
-            android:src="@drawable/map_icon" />
+            android:contentDescription="@string/events_button"
+            android:src="@drawable/g_events_icon" />
 
+        <!--Schedule Text here-->
         <TextView
             android:id="@+id/scheduleTextView"
             android:layout_width="wrap_content"
@@ -45,6 +47,37 @@
             android:textColor="@android:color/white"
             android:textStyle="bold" />
 
+        <!--Events Text here-->
+        <TextView
+            android:id="@+id/eventsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/events_string"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+        <!--Maps Button here-->
+        <ImageButton
+            android:id="@+id/mapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/map_button"
+            android:src="@drawable/g_maps_icon" />
+
+        <!--Mentor Hub Button here-->
+        <ImageButton
+            android:id="@+id/mentorHubButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/mentor_hub_button"
+            android:src="@drawable/g_mentor_hub_icon" />
+
+        <!--Maps Text here-->
         <TextView
             android:id="@+id/mapTextView"
             android:layout_width="wrap_content"
@@ -55,56 +88,7 @@
             android:textColor="@android:color/white"
             android:textStyle="bold" />
 
-        <ImageButton
-            android:id="@+id/livestreamButton"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/livestream_button"
-            android:src="@drawable/livestream_icon" />
-
-        <ImageButton
-            android:id="@+id/socialMediaButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/social_media_button"
-            android:src="@drawable/social_media_icon" />
-
-        <TextView
-            android:id="@+id/livestreamTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="35dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="@string/livestream_string"
-            android:textColor="@android:color/white"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/socialMediaTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="35dp"
-            android:fontFamily="sans-serif-condensed"
-            android:text="@string/socialmedia_string"
-            android:textColor="@android:color/white"
-            android:textStyle="bold" />
-
-        <ImageButton
-            android:id="@+id/mentorHubButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/mentor_hub_button"
-            android:src="@drawable/mentor_hub_icon" />
-
-        <ImageButton
-            android:id="@+id/eventsButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/events_button"
-            android:src="@drawable/event_icon" />
-
+        <!--Mentor Hub text here-->
         <TextView
             android:id="@+id/mentorHubTextView"
             android:layout_width="wrap_content"
@@ -115,13 +99,41 @@
             android:textColor="@android:color/white"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/eventsTextView"
+        <!--Live Stream Button here-->
+        <ImageButton
+            android:id="@+id/livestreamButton"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/livestream_button"
+            android:src="@drawable/g_live_stream_icon" />
+
+        <!--Social Media Button Here-->
+        <ImageButton
+            android:id="@+id/socialMediaButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/social_media_button"
+            android:src="@drawable/g_social_media_logo" />
+
+        <!--Live Stream text here-->
+        <TextView
+            android:id="@+id/livestreamTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="@string/events_string"
+            android:text="@string/livestream_string"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <!--Social Media text here-->
+        <TextView
+            android:id="@+id/socialMediaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/socialmedia_string"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
 
@@ -133,10 +145,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
         android:adjustViewBounds="true"
         android:contentDescription="HackAZ logo"
         android:scaleType="matrix"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_icon"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -149,6 +162,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/logoView"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
         android:fontFamily="sans-serif-condensed"
         android:text="@string/hack_arizona_string"
         android:textColor="@android:color/white"
