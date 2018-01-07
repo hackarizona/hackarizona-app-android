@@ -1,4 +1,4 @@
-package com.example.hackaz;
+package com.hackarizona.hackaz;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,9 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.example.hackaz.events.EventsActivity;
-import com.example.hackaz.map.MapActivity;
-import com.example.hackaz.schedule.ScheduleActivity;
+import com.hackarizona.hackaz.events.EventsActivity;
+import com.hackarizona.hackaz.map.MapActivity;
+import com.hackarizona.hackaz.schedule.ScheduleActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;

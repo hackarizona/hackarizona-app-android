@@ -1,10 +1,8 @@
-package com.example.hackaz.schedule;
+package com.hackarizona.hackaz.events;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -13,34 +11,31 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import com.example.hackaz.R;
 
+import com.hackarizona.hackaz.R;
 
 import java.util.ArrayList;
-import java.util.Timer;
-import java.util.TimerTask;
 
-public class ScheduleActivity extends AppCompatActivity {
+public class EventsActivity extends AppCompatActivity {
 
     private ArrayList<String> daySchedule;
     ListView scheduleView;
     private int savePos;
-    ProgressDialog dialog;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_schedule);
+        setContentView(R.layout.activity_events);
 
         savePos = 0;
         daySchedule = new ArrayList<>();
-        daySchedule.add("Friday");
-        daySchedule.add("Saturday");
-        daySchedule.add("Sunday");
+        daySchedule.add(getEmojiByUnicode(0x1F3C3)+" Activities");
+        daySchedule.add(getEmojiByUnicode(0x1F4BB)+" First Byte");
+        daySchedule.add(getEmojiByUnicode(0x1F4A1)+" Tech Talks");
 
         // Get ListView object from xml
-        scheduleView = (ListView) findViewById(R.id.scheduleList);
+        scheduleView = (ListView) findViewById(R.id.eventsList);
 
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(
                 this, android.R.layout.simple_list_item_1, daySchedule){
@@ -59,7 +54,6 @@ public class ScheduleActivity extends AppCompatActivity {
         };
         scheduleView.setAdapter(adapter);
 
-        //navigate to a subpage
         scheduleView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -71,30 +65,20 @@ public class ScheduleActivity extends AppCompatActivity {
     }
 
     private void navSubPage(){
-        Intent intent = new Intent(this, ScheduleDayActivity.class);
-
+        Intent intent = new Intent(this, EventTypeActivity.class);
         if(savePos == 0){
-            intent.putExtra("day", "friday");
+            intent.putExtra("url", "http://hackarizona.org/activities.json");
         }
         else if(savePos == 1){
-            intent.putExtra("day", "saturday");
+            intent.putExtra("url", "http://hackarizona.org/firstbyte.json");
         }
         else{
-            intent.putExtra("day", "sunday");
+            intent.putExtra("url", "http://hackarizona.org/techtalks.json");
         }
         startActivity(intent);
-
-        //show a dialog to indicate the page is loading
-        dialog = new ProgressDialog(this);
-        dialog.setMessage("Loading...");
-        dialog.setIndeterminate(true);
-        dialog.show();
-
     }
 
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        dialog.hide();
+    public String getEmojiByUnicode(int unicode){
+        return new String(Character.toChars(unicode));
     }
 }

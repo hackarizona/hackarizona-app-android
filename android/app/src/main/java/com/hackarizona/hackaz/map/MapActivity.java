@@ -1,4 +1,4 @@
-package com.example.hackaz.map;
+package com.hackarizona.hackaz.map;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -11,7 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.hackaz.R;
+import com.hackarizona.hackaz.R;
 
 import java.util.ArrayList;
 

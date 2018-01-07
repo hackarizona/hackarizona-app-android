@@ -1,9 +1,9 @@
-package com.example.hackaz.events;
+package com.hackarizona.hackaz.events;
 
 import android.content.Intent;
 import android.graphics.Color;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,33 +12,41 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.hackaz.R;
+import com.hackarizona.hackaz.R;
+
 
 import java.util.ArrayList;
 
-public class EventsActivity extends AppCompatActivity {
+public class EventTypeActivity extends AppCompatActivity {
+    private String url;
 
-    private ArrayList<String> daySchedule;
+    private ArrayList<String> dayOptions;
     ListView scheduleView;
     private int savePos;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_events);
+        setContentView(R.layout.activity_event_type);
+
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            url = extras.getString("url");
+            //The key argument here must match that used in the other activity
+            Log.i("url", url);
+        }
 
         savePos = 0;
-        daySchedule = new ArrayList<>();
-        daySchedule.add(getEmojiByUnicode(0x1F3C3)+" Activities");
-        daySchedule.add(getEmojiByUnicode(0x1F4BB)+" First Byte");
-        daySchedule.add(getEmojiByUnicode(0x1F4A1)+" Tech Talks");
+        dayOptions = new ArrayList<>();
+        dayOptions.add("Friday");
+        dayOptions.add("Saturday");
+        dayOptions.add("Sunday");
 
         // Get ListView object from xml
-        scheduleView = (ListView) findViewById(R.id.eventsList);
+        scheduleView = (ListView) findViewById(R.id.event_type_list);
 
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(
-                this, android.R.layout.simple_list_item_1, daySchedule){
+                this, android.R.layout.simple_list_item_1, dayOptions){
 
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
@@ -65,20 +73,18 @@ public class EventsActivity extends AppCompatActivity {
     }
 
     private void navSubPage(){
-        Intent intent = new Intent(this, EventTypeActivity.class);
+        Intent intent = new Intent(this, EventDayActivity.class);
+        intent.putExtra("url", url);
         if(savePos == 0){
-            intent.putExtra("url", "http://hackarizona.org/activities.json");
+            intent.putExtra("day", "friday");
         }
         else if(savePos == 1){
-            intent.putExtra("url", "http://hackarizona.org/firstbyte.json");
+            intent.putExtra("day", "saturday");
         }
         else{
-            intent.putExtra("url", "http://hackarizona.org/techtalks.json");
+            intent.putExtra("day", "sunday");
         }
         startActivity(intent);
-    }
 
-    public String getEmojiByUnicode(int unicode){
-        return new String(Character.toChars(unicode));
     }
 }

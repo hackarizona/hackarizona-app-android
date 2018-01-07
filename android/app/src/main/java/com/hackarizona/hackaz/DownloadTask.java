@@ -1,4 +1,4 @@
-package com.example.hackaz;
+package com.hackarizona.hackaz;
 
 import android.os.AsyncTask;
 

@@ -1,13 +1,10 @@
-package com.example.hackaz.map;
+package com.hackarizona.hackaz.map;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.method.Touch;
-import android.util.Log;
-import android.widget.ImageView;
 
-import com.example.hackaz.R;
-import com.example.hackaz.TouchImageView;
+import com.hackarizona.hackaz.R;
+import com.hackarizona.hackaz.TouchImageView;
 
 public class FloorActivity extends AppCompatActivity {
     private int floorNum;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hackaz">
+    package="com.hackarizona.hackaz">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -19,7 +19,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.hackarizona.hackaz.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,16 +27,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".schedule.ScheduleActivity"
+            android:name="com.hackarizona.hackaz.schedule.ScheduleActivity"
             android:label="@string/title_activity_schedule_view"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.hackarizona.hackaz.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.hackaz.MainActivity" />
+                android:value="com.hackarizona.hackaz.MainActivity" />
         </activity>
         <activity
-            android:name=".map.MapActivity"
+            android:name="com.hackarizona.hackaz.map.MapActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <!--<activity android:name=".mentorhub.LiveStreamActivity" />-->
         <!--<activity android:name=".mentorhub.MentorActivity" />-->
@@ -69,19 +69,19 @@
             <!--android:name=".map.floors.Floor5Activity"-->
             <!--android:theme="@style/AppTheme.NoActionBar" />-->
 
-        <service android:name=".MyFirebaseInstanceIDService">
+        <service android:name="com.hackarizona.hackaz.MyFirebaseInstanceIDService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-        <service android:name=".MyFirebaseMessagingService">
+        <service android:name="com.hackarizona.hackaz.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
-        <activity android:name=".SocialMediaActivity" />
-        <activity android:name=".events.EventsActivity" />
+        <activity android:name="com.hackarizona.hackaz.SocialMediaActivity" />
+        <activity android:name="com.hackarizona.hackaz.events.EventsActivity" />
         <!--<activity android:name=".events.activities.ActivitiesActivity" />-->
         <!--<activity android:name=".events.activities.Fri1Activity" />-->
         <!--<activity android:name=".events.activities.Sat1Activity" />-->
@@ -96,10 +96,10 @@
         <!--<activity android:name=".events.techTalks.Sun3Activity" />-->
         <!--<activity android:name=".CustomListActivity" />-->
         <!--<activity android:name=".MyAdapter" />-->
-        <activity android:name=".events.EventTypeActivity" />
-        <activity android:name=".events.EventDayActivity" />
-        <activity android:name=".map.FloorActivity" />
-        <activity android:name=".schedule.ScheduleDayActivity"></activity>
+        <activity android:name="com.hackarizona.hackaz.events.EventTypeActivity" />
+        <activity android:name="com.hackarizona.hackaz.events.EventDayActivity" />
+        <activity android:name="com.hackarizona.hackaz.map.FloorActivity" />
+        <activity android:name="com.hackarizona.hackaz.schedule.ScheduleDayActivity"></activity>
 
     </application>
 

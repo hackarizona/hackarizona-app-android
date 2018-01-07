@@ -1,4 +1,4 @@
-package com.example.hackaz.events;
+package com.hackarizona.hackaz.events;
 
 /**
  * Created by Emily on 12/10/2017.
