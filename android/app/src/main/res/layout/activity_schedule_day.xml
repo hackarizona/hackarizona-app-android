@@ -14,4 +14,14 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true" />
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/HeaderBar"
+        app:theme="@style/AppTheme.AppBarOverlay"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:elevation="4dp"
+        />
+
 </android.support.constraint.ConstraintLayout>

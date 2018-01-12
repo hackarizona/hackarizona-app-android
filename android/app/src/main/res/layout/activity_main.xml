@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
+    android:background="@drawable/bg_gradient"
     android:visibility="visible"
     tools:context="com.hackarizona.hackaz.MainActivity">
 
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:contentDescription="@string/schedule_button"
-            android:src="@drawable/g_schedule_icon" />
+            android:src="@drawable/schedule_icon" />
 
         <!--Events Button here-->
         <ImageButton
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:contentDescription="@string/events_button"
-            android:src="@drawable/g_events_icon" />
+            android:src="@drawable/event_icon" />
 
         <!--Schedule Text here-->
         <TextView
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:contentDescription="@string/map_button"
-            android:src="@drawable/g_maps_icon" />
+            android:src="@drawable/map_icon" />
 
         <!--Mentor Hub Button here-->
         <ImageButton
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:contentDescription="@string/mentor_hub_button"
-            android:src="@drawable/g_mentor_hub_icon" />
+            android:src="@drawable/mentorhub_icon" />
 
         <!--Maps Text here-->
         <TextView
@@ -102,9 +102,11 @@
         <!--Live Stream Button here-->
         <ImageButton
             android:id="@+id/livestreamButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:contentDescription="@string/livestream_button"
-            android:src="@drawable/g_live_stream_icon" />
+            android:src="@drawable/livestream_icon" />
 
         <!--Social Media Button Here-->
         <ImageButton
@@ -112,8 +114,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:contentDescription="@string/social_media_button"
-            android:src="@drawable/g_social_media_logo" />
+            android:contentDescription="Communication Button"
+            android:src="@drawable/communication_icon" />
 
         <!--Live Stream text here-->
         <TextView
@@ -133,7 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
             android:fontFamily="sans-serif-condensed"
-            android:text="@string/socialmedia_string"
+            android:text="Communication"
             android:textColor="@android:color/white"
             android:textStyle="bold" />
 
@@ -149,7 +151,7 @@
         android:adjustViewBounds="true"
         android:contentDescription="HackAZ logo"
         android:scaleType="matrix"
-        android:src="@drawable/logo_icon"
+        android:src="@drawable/haz"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

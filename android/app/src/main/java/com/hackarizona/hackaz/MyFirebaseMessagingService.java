@@ -25,7 +25,4 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 .setContentTitle(message);
         notificationManager.notify(1, mBuilder.build());
     }
-
-
-
 }

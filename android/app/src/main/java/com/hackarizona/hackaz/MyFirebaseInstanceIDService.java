@@ -26,9 +26,6 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
     }
 
     private void sendRegistrationToServer(String refreshedToken) {
-        // Add custom implementation, as needed.
-
-
+        // Add custom implementation, as needed
     }
-
 }
