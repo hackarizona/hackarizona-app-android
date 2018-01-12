@@ -1,9 +1,13 @@
 package com.hackarizona.hackaz.schedule;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -30,19 +34,25 @@ public class ScheduleDayActivity extends AppCompatActivity {
     private ArrayList<String> scheduleList;
     ListView scheduleView;
     private ArrayList<ScheduleEvent> scheduleObjectData;
+    private Toolbar topBar;
+    private String scheduleKey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_day);
         scheduleObjectData = new ArrayList<ScheduleEvent>();
-
+        topBar = (Toolbar) findViewById(R.id.my_toolbar2);
+        setSupportActionBar(topBar);
 
         //preparing data for sub activity
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             day = extras.getString("day");
             //The key argument here must match that used in the other activity
+
+            // Set the display title
+            getSupportActionBar().setTitle(day.toUpperCase());
         }
 
 
@@ -102,10 +112,12 @@ public class ScheduleDayActivity extends AppCompatActivity {
                     unicode = 0x1F4A1;
                 else if (eventType.equals("firstbyte"))
                     unicode = 0x1F4BB;
-                else
+                else if (eventType.equals("food"))
                     unicode = 0x1F32E;
+                else if (eventType.equals("livestream"))
+                    unicode = 0x1F4FA;
 
-                scheduleList.add(getEmojiByUnicode(unicode) + " " + eventName + " " + "\n" +
+                scheduleList.add(getEmojiByUnicode(unicode) + "\t" + eventName + " " + "\n" +
                         time + " - " + location + "\n" );
                 ScheduleEvent currEvent = new ScheduleEvent(eventName, eventType, time, location, description);
                 scheduleObjectData.add(currEvent);
@@ -176,5 +188,54 @@ public class ScheduleDayActivity extends AppCompatActivity {
 
     public String getEmojiByUnicode(int unicode){
         return new String(Character.toChars(unicode));
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_favorite) {
+            displayPopupWindow();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void displayPopupWindow() {
+        final PopupWindow popup = new PopupWindow(this);
+        View popupView = getLayoutInflater().inflate(R.layout.popup, null);
+        popup.setContentView(popupView);
+        popup.setOutsideTouchable(true);
+        popup.setFocusable(true);
+        popup.showAtLocation(popupView, Gravity.CENTER, 0, 0);
+
+        scheduleKey = "Key:\n"+getEmojiByUnicode(0x1F335) + ": General Event\n" + getEmojiByUnicode(0x1F3C3) +
+                ": Activity\n" + getEmojiByUnicode(0x1F4A1) + ": Tech Talk\n" +
+                getEmojiByUnicode(0x1F4BB) + ": firstByte Workshop\n" + getEmojiByUnicode(0x1F32E) + ": Food\n" +
+                getEmojiByUnicode(0x1F4FA) + ": Live Stream\n";
+
+        TextView textView = (TextView) popup.getContentView().
+                findViewById(R.id.popupTextView);
+        textView.setText(scheduleKey);
+        textView.setTextSize(15);
+
+        Button btnDismiss = (Button) popupView.findViewById(R.id.dismiss);
+        btnDismiss.setOnClickListener(new Button.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                popup.dismiss();
+            }});
     }
 }

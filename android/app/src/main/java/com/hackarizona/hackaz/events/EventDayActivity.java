@@ -1,8 +1,8 @@
 package com.hackarizona.hackaz.events;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +13,8 @@ import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
+import com.hackarizona.hackaz.DownloadTask;
 import com.hackarizona.hackaz.R;
-
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -22,7 +22,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
-import com.hackarizona.hackaz.DownloadTask;
 
 import static com.hackarizona.hackaz.R.layout.popup;
 
@@ -90,20 +89,24 @@ public class EventDayActivity extends AppCompatActivity {
                     //add display info
                     eventList.add("\n"  + eventName + " "
                             +"\n" + time + " - " + location + "\n" );
-                }
-                else if(url.equals("http://hackarizona.org/firstbyte.json")){
+                } else if(url.equals("http://hackarizona.org/firstbyte.json")){
                     eventName = event.getString("workshop");
 
                     eventList.add("\n"  + eventName + " "
                             +"\n" + time + " - " + location + "\n" );
-                }
-                else if(url.equals("http://hackarizona.org/techtalks.json")){
+                } else if(url.equals("http://hackarizona.org/techtalks.json")){
                     eventName = event.getString("talk");
                     sponsorName = event.getString("sponsor");
 
-                    eventList.add("\n" + sponsorName + " "
+                    eventList.add("\n" + sponsorName + "\n"
                             + eventName+ "\n" + time + " - "
                             + location + "\n" );
+                } else if(url.equals("http://hackarizona.org/livestreamevents.json")){
+                    eventName = event.getString("title");
+
+                    //add display info
+                    eventList.add("\n"  + eventName + " "
+                            +"\n" + time + " - " + location + "\n" );
                 }
 
                 //add current data object with all fields,

@@ -19,7 +19,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name="com.hackarizona.hackaz.MainActivity">
+        <activity android:name="com.hackarizona.hackaz.MainActivity"
+            android:screenOrientation = "portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,14 +32,16 @@
             android:name="com.hackarizona.hackaz.schedule.ScheduleActivity"
             android:label="@string/title_activity_schedule_view"
             android:parentActivityName="com.hackarizona.hackaz.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation = "portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.hackarizona.hackaz.MainActivity" />
         </activity>
         <activity
             android:name="com.hackarizona.hackaz.map.MapActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation = "portrait"/>
         <!--<activity android:name=".mentorhub.LiveStreamActivity" />-->
         <!--<activity android:name=".mentorhub.MentorActivity" />-->
         <!--<activity-->
@@ -80,8 +84,10 @@
             </intent-filter>
         </service>
 
-        <activity android:name="com.hackarizona.hackaz.SocialMediaActivity" />
-        <activity android:name="com.hackarizona.hackaz.events.EventsActivity" />
+        <activity android:name="com.hackarizona.hackaz.SocialMediaActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name="com.hackarizona.hackaz.events.EventsActivity"
+            android:screenOrientation = "portrait"/>
         <!--<activity android:name=".events.activities.ActivitiesActivity" />-->
         <!--<activity android:name=".events.activities.Fri1Activity" />-->
         <!--<activity android:name=".events.activities.Sat1Activity" />-->
@@ -96,10 +102,14 @@
         <!--<activity android:name=".events.techTalks.Sun3Activity" />-->
         <!--<activity android:name=".CustomListActivity" />-->
         <!--<activity android:name=".MyAdapter" />-->
-        <activity android:name="com.hackarizona.hackaz.events.EventTypeActivity" />
-        <activity android:name="com.hackarizona.hackaz.events.EventDayActivity" />
-        <activity android:name="com.hackarizona.hackaz.map.FloorActivity" />
-        <activity android:name="com.hackarizona.hackaz.schedule.ScheduleDayActivity"></activity>
+        <activity android:name="com.hackarizona.hackaz.events.EventTypeActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name="com.hackarizona.hackaz.events.EventDayActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name="com.hackarizona.hackaz.map.FloorActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name="com.hackarizona.hackaz.schedule.ScheduleDayActivity"
+            android:screenOrientation = "portrait"></activity>
 
     </application>
 
